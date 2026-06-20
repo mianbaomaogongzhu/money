@@ -105,13 +105,25 @@
       "category": "food",
       "note": "\u65e9\u4e0a\u4e70\u996e\u6599",
       "month": "2026-06"
+    },
+    {
+      "id": "txn_20260620_005",
+      "date": "2026-06-20",
+      "amount": 190,
+      "currency": "CNY",
+      "convertedAmount": 190.0,
+      "exchangeRate": 1,
+      "rateNote": "CNY base currency",
+      "category": "daily",
+      "note": "\u88ab\u8925\u70d8\u5e72\u673a Sintu (Amazon JP)",
+      "month": "2026-06"
     }
   ],
   "monthlyBudget": null,
   "cachedRates": {},
   "stats": {
-    "totalEntries": 4,
-    "totalSpentCNY": 441.58,
+    "totalEntries": 5,
+    "totalSpentCNY": 631.58,
     "firstEntry": "2026-06-20",
     "lastEntry": "2026-06-20"
   }

@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "owner": "星星",
+    "baseCurrency": "CNY",
+    "currencySymbol": "¥",
+    "created": "2026-06-20",
+    "lastUpdated": "2026-06-20",
+    "updatedBy": "小苏"
+  },
+  "categories": {
+    "food": {
+      "emoji": "🍱",
+      "name": "餐饮"
+    },
+    "transport": {
+      "emoji": "🚃",
+      "name": "交通"
+    },
+    "housing": {
+      "emoji": "🏠",
+      "name": "住房水电"
+    },
+    "education": {
+      "emoji": "📚",
+      "name": "学习"
+    },
+    "entertainment": {
+      "emoji": "🎮",
+      "name": "娱乐"
+    },
+    "shopping": {
+      "emoji": "👗",
+      "name": "购物"
+    },
+    "medical": {
+      "emoji": "💊",
+      "name": "医疗美容"
+    },
+    "travel": {
+      "emoji": "✈️",
+      "name": "旅行"
+    },
+    "kpop": {
+      "emoji": "🎵",
+      "name": "追星"
+    },
+    "subscription": {
+      "emoji": "📱",
+      "name": "订阅通讯"
+    },
+    "daily": {
+      "emoji": "🧴",
+      "name": "日用品"
+    },
+    "other": {
+      "emoji": "🐱",
+      "name": "其他"
+    }
+  },
+  "entries": [],
+  "monthlyBudget": null,
+  "cachedRates": {},
+  "stats": {
+    "totalEntries": 0,
+    "totalSpentCNY": 0,
+    "firstEntry": null,
+    "lastEntry": null
+  }
+}

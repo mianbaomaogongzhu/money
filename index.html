@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🐱 星星的记账本</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap');
+  
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  
+  :root {
+    --bg: #fdf6ec;
+    --card: #fffaf0;
+    --accent: #e8a87c;
+    --accent2: #d4a574;
+    --text: #5a4a3a;
+    --text-light: #8a7a6a;
+    --border: #f0e0d0;
+    --green: #7cb87c;
+    --red: #d47c7c;
+    --shadow: 0 2px 12px rgba(180,150,120,0.12);
+  }
+  
+  body {
+    font-family: 'Noto Sans SC', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    padding: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 24px 0 16px;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--accent2);
+  }
+  
+  .header .subtitle {
+    font-size: 13px;
+    color: var(--text-light);
+    margin-top: 4px;
+  }
+  
+  .month-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin: 16px 0;
+  }
+  
+  .month-nav button {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    font-size: 16px;
+    color: var(--text);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+  }
+  
+  .month-nav button:hover { background: var(--accent); color: white; }
+  
+  .month-nav .current-month {
+    font-size: 18px;
+    font-weight: 700;
+    min-width: 140px;
+    text-align: center;
+  }
+  
+  .summary-card {
+    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    border-radius: 20px;
+    padding: 24px;
+    color: white;
+    margin-bottom: 16px;
+    box-shadow: var(--shadow);
+  }
+  
+  .summary-card .total-label {
+    font-size: 13px;
+    opacity: 0.85;
+  }
+  
+  .summary-card .total-amount {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 4px 0 12px;
+  }
+  
+  .summary-card .stats-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    opacity: 0.9;
+  }
+  
+  .card {
+    background: var(--card);
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 16px;
+    box-shadow: var(--shadow);
+    border: 1px solid var(--border);
+  }
+  
+  .card-title {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  
+  .category-bar {
+    display: flex;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 12px;
+    background: var(--border);
+  }
+  
+  .category-bar .seg {
+    height: 100%;
+    transition: width 0.6s ease;
+  }
+  
+  .category-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .category-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 12px;
+    border-radius: 10px;
+    background: var(--bg);
+    font-size: 14px;
+  }
+  
+  .category-item .left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .category-item .amount {
+    font-weight: 700;
+    color: var(--accent2);
+  }
+  
+  .category-item .pct {
+    font-size: 12px;
+    color: var(--text-light);
+    margin-left: 6px;
+  }
+  
+  .transaction-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  
+  .txn-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 12px;
+    border-radius: 10px;
+    background: var(--bg);
+    font-size: 14px;
+  }
+  
+  .txn-item .txn-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .txn-item .txn-emoji {
+    font-size: 20px;
+    width: 32px;
+    text-align: center;
+  }
+  
+  .txn-item .txn-info .txn-note {
+    font-weight: 500;
+  }
+  
+  .txn-item .txn-info .txn-date {
+    font-size: 11px;
+    color: var(--text-light);
+  }
+  
+  .txn-item .txn-amounts {
+    text-align: right;
+  }
+  
+  .txn-item .txn-amounts .txn-converted {
+    font-weight: 700;
+    color: var(--red);
+  }
+  
+  .txn-item .txn-amounts .txn-original {
+    font-size: 11px;
+    color: var(--text-light);
+  }
+  
+  .empty-state {
+    text-align: center;
+    padding: 40px 20px;
+    color: var(--text-light);
+  }
+  
+  .empty-state .emoji { font-size: 48px; margin-bottom: 12px; }
+  .empty-state .msg { font-size: 14px; line-height: 1.6; }
+  
+  .footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+    color: var(--text-light);
+  }
+  
+  .budget-bar {
+    margin-top: 8px;
+    background: rgba(255,255,255,0.3);
+    height: 6px;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  
+  .budget-bar .fill {
+    height: 100%;
+    border-radius: 3px;
+    transition: width 0.6s ease;
+  }
+  
+  .loading {
+    text-align: center;
+    padding: 60px;
+    color: var(--text-light);
+    font-size: 16px;
+  }
+  
+  .cat-colors { display: none; }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  .animate-in {
+    animation: fadeIn 0.4s ease forwards;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>🐱 星星的记账本</h1>
+  <div class="subtitle">小苏帮你记 · 省钱喵</div>
+</div>
+
+<div id="app">
+  <div class="loading">🍞 加载中喵...</div>
+</div>
+
+<div class="footer">
+  小苏打 × 可颂喵公主 · 记账本 v1.0<br>
+  <span id="lastUpdate"></span>
+</div>
+
+<script>
+const DATA_URL = 'https://raw.githubusercontent.com/mianbaomaogongzhu/money/main/data.json';
+const CAT_COLORS = [
+  '#e8a87c', '#d4a574', '#c49a6c', '#b8937a',
+  '#d47c7c', '#7cb87c', '#7ca8d4', '#b87cb8',
+  '#d4b87c', '#7cd4c8', '#8a8ad4', '#d47ca8'
+];
+const CURRENCY_SYMBOLS = {
+  'CNY': '¥', 'JPY': '¥', 'KRW': '₩', 'USD': '$',
+  'EUR': '€', 'GBP': '£', 'HKD': 'HK$', 'TWD': 'NT$'
+};
+
+let allData = null;
+let currentMonth = new Date().toISOString().slice(0, 7);
+
+async function loadData() {
+  try {
+    const r = await fetch(DATA_URL + '?t=' + Date.now());
+    allData = await r.json();
+    render();
+  } catch(e) {
+    document.getElementById('app').innerHTML = 
+      '<div class="empty-state"><div class="emoji">😿</div><div class="msg">数据加载失败喵...<br>请刷新重试</div></div>';
+  }
+}
+
+function getMonthEntries(month) {
+  if (!allData || !allData.entries) return [];
+  return allData.entries.filter(e => e.date && e.date.startsWith(month));
+}
+
+function getCategoryTotals(entries) {
+  const totals = {};
+  entries.forEach(e => {
+    const cat = e.category || 'other';
+    totals[cat] = (totals[cat] || 0) + (e.convertedAmount || 0);
+  });
+  return Object.entries(totals)
+    .sort((a, b) => b[1] - a[1])
+    .map(([k, v]) => ({
+      key: k,
+      total: v,
+      info: allData.categories[k] || { emoji: '🐱', name: k }
+    }));
+}
+
+function formatMonth(m) {
+  const [y, mo] = m.split('-');
+  return `${y}年${parseInt(mo)}月`;
+}
+
+function prevMonth(m) {
+  const d = new Date(m + '-01');
+  d.setMonth(d.getMonth() - 1);
+  return d.toISOString().slice(0, 7);
+}
+
+function nextMonth(m) {
+  const d = new Date(m + '-01');
+  d.setMonth(d.getMonth() + 1);
+  return d.toISOString().slice(0, 7);
+}
+
+function render() {
+  const entries = getMonthEntries(currentMonth);
+  const totalCNY = entries.reduce((s, e) => s + (e.convertedAmount || 0), 0);
+  const catTotals = getCategoryTotals(entries);
+  const sym = allData.meta.currencySymbol || '¥';
+  
+  // Previous month comparison
+  const prevEntries = getMonthEntries(prevMonth(currentMonth));
+  const prevTotal = prevEntries.reduce((s, e) => s + (e.convertedAmount || 0), 0);
+  let compareText = '';
+  if (prevTotal > 0 && totalCNY > 0) {
+    const diff = totalCNY - prevTotal;
+    const pct = ((diff / prevTotal) * 100).toFixed(0);
+    compareText = diff > 0 
+      ? `比上月多 ${sym}${diff.toFixed(2)} (+${pct}%)`
+      : `比上月少 ${sym}${Math.abs(diff).toFixed(2)} (${pct}%)`;
+  }
+  
+  let html = '';
+  
+  // Month navigation
+  html += `
+    <div class="month-nav">
+      <button onclick="navMonth(-1)">◂</button>
+      <div class="current-month">${formatMonth(currentMonth)}</div>
+      <button onclick="navMonth(1)">▸</button>
+    </div>
+  `;
+  
+  // Summary card
+  html += `
+    <div class="summary-card animate-in">
+      <div class="total-label">本月总支出（${allData.meta.baseCurrency}）</div>
+      <div class="total-amount">${sym}${totalCNY.toFixed(2)}</div>
+      <div class="stats-row">
+        <span>${entries.length} 笔交易</span>
+        <span>${compareText || (entries.length > 0 ? '日均 ' + sym + (totalCNY / new Date(currentMonth + '-01').getDate()).toFixed(2) : '还没有记录喵')}</span>
+      </div>
+      ${allData.monthlyBudget ? `
+        <div class="budget-bar">
+          <div class="fill" style="width:${Math.min(100, totalCNY/allData.monthlyBudget*100)}%; background:${totalCNY > allData.monthlyBudget ? '#ff6b6b' : 'rgba(255,255,255,0.8)'}"></div>
+        </div>
+        <div class="stats-row" style="margin-top:4px">
+          <span>预算 ${sym}${allData.monthlyBudget}</span>
+          <span>剩余 ${sym}${Math.max(0, allData.monthlyBudget - totalCNY).toFixed(2)}</span>
+        </div>
+      ` : ''}
+    </div>
+  `;
+  
+  if (entries.length === 0) {
+    html += `
+      <div class="card animate-in">
+        <div class="empty-state">
+          <div class="emoji">🍞</div>
+          <div class="msg">这个月还没有记录喵～<br>跟小苏说"我花了xxx"就会帮你记！</div>
+        </div>
+      </div>
+    `;
+  } else {
+    // Category breakdown
+    html += `<div class="card animate-in">
+      <div class="card-title">📊 分类支出</div>
+      <div class="category-bar">`;
+    
+    catTotals.forEach((c, i) => {
+      const pct = (c.total / totalCNY * 100);
+      html += `<div class="seg" style="width:${pct}%;background:${CAT_COLORS[i % CAT_COLORS.length]}"></div>`;
+    });
+    
+    html += `</div><div class="category-list">`;
+    
+    catTotals.forEach((c, i) => {
+      const pct = (c.total / totalCNY * 100).toFixed(0);
+      html += `
+        <div class="category-item">
+          <div class="left">
+            <span style="color:${CAT_COLORS[i % CAT_COLORS.length]}">●</span>
+            <span>${c.info.emoji} ${c.info.name}</span>
+          </div>
+          <div>
+            <span class="amount">${sym}${c.total.toFixed(2)}</span>
+            <span class="pct">${pct}%</span>
+          </div>
+        </div>`;
+    });
+    
+    html += `</div></div>`;
+    
+    // Recent transactions
+    const sorted = [...entries].sort((a, b) => (b.date + b.id).localeCompare(a.date + a.id));
+    
+    html += `<div class="card animate-in">
+      <div class="card-title">📝 交易记录</div>
+      <div class="transaction-list">`;
+    
+    sorted.forEach(e => {
+      const cat = allData.categories[e.category] || { emoji: '🐱', name: '其他' };
+      const origSym = CURRENCY_SYMBOLS[e.currency] || '';
+      html += `
+        <div class="txn-item">
+          <div class="txn-left">
+            <div class="txn-emoji">${cat.emoji}</div>
+            <div class="txn-info">
+              <div class="txn-note">${e.note || cat.name}</div>
+              <div class="txn-date">${e.date}</div>
+            </div>
+          </div>
+          <div class="txn-amounts">
+            <div class="txn-converted">-${sym}${e.convertedAmount.toFixed(2)}</div>
+            ${e.currency !== allData.meta.baseCurrency ? `<div class="txn-original">${origSym}${e.amount} ${e.currency}</div>` : ''}
+          </div>
+        </div>`;
+    });
+    
+    html += `</div></div>`;
+  }
+  
+  document.getElementById('app').innerHTML = html;
+  document.getElementById('lastUpdate').textContent = 
+    allData.meta.lastUpdated ? `最后更新: ${allData.meta.lastUpdated}` : '';
+}
+
+function navMonth(dir) {
+  currentMonth = dir < 0 ? prevMonth(currentMonth) : nextMonth(currentMonth);
+  render();
+}
+
+loadData();
+</script>
+</body>
+</html>

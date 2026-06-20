@@ -305,12 +305,19 @@ const CURRENCY_SYMBOLS = {
 let allData = null;
 let currentMonth = new Date().toISOString().slice(0, 7);
 
+function decodeBase64UTF8(b64) {
+  const clean = b64.replace(/\n/g, '');
+  const binary = atob(clean);
+  const bytes = Uint8Array.from(binary, c => c.charCodeAt(0));
+  return new TextDecoder('utf-8').decode(bytes);
+}
+
 async function loadData() {
   try {
     // Try GitHub API first (no cache delay)
     const r = await fetch(DATA_API, {headers: {'Accept': 'application/vnd.github.v3+json'}});
     const j = await r.json();
-    allData = JSON.parse(atob(j.content));
+    allData = JSON.parse(decodeBase64UTF8(j.content));
     render();
   } catch(e1) {
     try {

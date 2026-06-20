@@ -290,7 +290,8 @@
 </div>
 
 <script>
-const DATA_URL = 'https://raw.githubusercontent.com/mianbaomaogongzhu/money/main/data.json';
+const DATA_API = 'https://api.github.com/repos/mianbaomaogongzhu/money/contents/data.json';
+const DATA_RAW = 'https://raw.githubusercontent.com/mianbaomaogongzhu/money/main/data.json';
 const CAT_COLORS = [
   '#e8a87c', '#d4a574', '#c49a6c', '#b8937a',
   '#d47c7c', '#7cb87c', '#7ca8d4', '#b87cb8',
@@ -306,12 +307,21 @@ let currentMonth = new Date().toISOString().slice(0, 7);
 
 async function loadData() {
   try {
-    const r = await fetch(DATA_URL + '?t=' + Date.now());
-    allData = await r.json();
+    // Try GitHub API first (no cache delay)
+    const r = await fetch(DATA_API, {headers: {'Accept': 'application/vnd.github.v3+json'}});
+    const j = await r.json();
+    allData = JSON.parse(atob(j.content));
     render();
-  } catch(e) {
-    document.getElementById('app').innerHTML = 
-      '<div class="empty-state"><div class="emoji">😿</div><div class="msg">数据加载失败喵...<br>请刷新重试</div></div>';
+  } catch(e1) {
+    try {
+      // Fallback to raw (may have ~5min cache)
+      const r2 = await fetch(DATA_RAW + '?t=' + Date.now());
+      allData = await r2.json();
+      render();
+    } catch(e2) {
+      document.getElementById('app').innerHTML = 
+        '<div class="empty-state"><div class="emoji">😿</div><div class="msg">数据加载失败喵...<br>请刷新重试</div></div>';
+    }
   }
 }
 

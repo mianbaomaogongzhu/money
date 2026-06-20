@@ -93,13 +93,25 @@
       "category": "shopping",
       "note": "Manic Panic\u67d3\u53d1\u818fx2 (\u7d2b\u8272)",
       "month": "2026-06"
+    },
+    {
+      "id": "txn_20260620_004",
+      "date": "2026-06-20",
+      "amount": 160,
+      "currency": "JPY",
+      "convertedAmount": 6.72,
+      "exchangeRate": 23.81,
+      "rateNote": "1 CNY = 23.81 JPY",
+      "category": "food",
+      "note": "\u65e9\u4e0a\u4e70\u996e\u6599",
+      "month": "2026-06"
     }
   ],
   "monthlyBudget": null,
   "cachedRates": {},
   "stats": {
-    "totalEntries": 3,
-    "totalSpentCNY": 434.86,
+    "totalEntries": 4,
+    "totalSpentCNY": 441.58,
     "firstEntry": "2026-06-20",
     "lastEntry": "2026-06-20"
   }

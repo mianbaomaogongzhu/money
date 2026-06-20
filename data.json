@@ -1,60 +1,60 @@
 {
   "meta": {
-    "owner": "星星",
+    "owner": "\u661f\u661f",
     "baseCurrency": "CNY",
-    "currencySymbol": "¥",
+    "currencySymbol": "\u00a5",
     "created": "2026-06-20",
     "lastUpdated": "2026-06-20",
-    "updatedBy": "小苏"
+    "updatedBy": "\u5c0f\u82cf"
   },
   "categories": {
     "food": {
-      "emoji": "🍱",
-      "name": "餐饮"
+      "emoji": "\ud83c\udf71",
+      "name": "\u9910\u996e"
     },
     "transport": {
-      "emoji": "🚃",
-      "name": "交通"
+      "emoji": "\ud83d\ude83",
+      "name": "\u4ea4\u901a"
     },
     "housing": {
-      "emoji": "🏠",
-      "name": "住房水电"
+      "emoji": "\ud83c\udfe0",
+      "name": "\u4f4f\u623f\u6c34\u7535"
     },
     "education": {
-      "emoji": "📚",
-      "name": "学习"
+      "emoji": "\ud83d\udcda",
+      "name": "\u5b66\u4e60"
     },
     "entertainment": {
-      "emoji": "🎮",
-      "name": "娱乐"
+      "emoji": "\ud83c\udfae",
+      "name": "\u5a31\u4e50"
     },
     "shopping": {
-      "emoji": "👗",
-      "name": "购物"
+      "emoji": "\ud83d\udc57",
+      "name": "\u8d2d\u7269"
     },
     "medical": {
-      "emoji": "💊",
-      "name": "医疗美容"
+      "emoji": "\ud83d\udc8a",
+      "name": "\u533b\u7597\u7f8e\u5bb9"
     },
     "travel": {
-      "emoji": "✈️",
-      "name": "旅行"
+      "emoji": "\u2708\ufe0f",
+      "name": "\u65c5\u884c"
     },
     "kpop": {
-      "emoji": "🎵",
-      "name": "追星"
+      "emoji": "\ud83c\udfb5",
+      "name": "\u8ffd\u661f"
     },
     "subscription": {
-      "emoji": "📱",
-      "name": "订阅通讯"
+      "emoji": "\ud83d\udcf1",
+      "name": "\u8ba2\u9605\u901a\u8baf"
     },
     "daily": {
-      "emoji": "🧴",
-      "name": "日用品"
+      "emoji": "\ud83e\uddf4",
+      "name": "\u65e5\u7528\u54c1"
     },
     "other": {
-      "emoji": "🐱",
-      "name": "其他"
+      "emoji": "\ud83d\udc31",
+      "name": "\u5176\u4ed6"
     }
   },
   "entries": [
@@ -67,7 +67,7 @@
       "exchangeRate": 23.81,
       "rateNote": "1 CNY = 23.81 JPY",
       "category": "food",
-      "note": "鸡汤拉面",
+      "note": "\u9e21\u6c64\u62c9\u9762",
       "month": "2026-06"
     }
   ],

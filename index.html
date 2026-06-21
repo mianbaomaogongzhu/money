@@ -352,6 +352,16 @@ function nextMonth(m) {
   return d.toISOString().slice(0, 7);
 }
 
+function getDaysForAvg(month) {
+  const now = new Date();
+  const [y, m] = month.split('-').map(Number);
+  const currentYM = now.toISOString().slice(0, 7);
+  if (month === currentYM) {
+    return now.getDate(); // days elapsed this month
+  }
+  return new Date(y, m, 0).getDate(); // total days in that month
+}
+
 function render() {
   const entries = getMonthEntries(currentMonth);
   const totalCNY = entries.reduce((s, e) => s + (e.convertedAmount || 0), 0);
@@ -388,7 +398,7 @@ function render() {
       <div class="total-amount">${sym}${totalCNY.toFixed(2)}</div>
       <div class="stats-row">
         <span>${entries.length} 笔交易</span>
-        <span>${compareText || (entries.length > 0 ? '日均 ' + sym + (totalCNY / new Date(currentMonth + '-01').getDate()).toFixed(2) : '还没有记录喵')}</span>
+        <span>${compareText || (entries.length > 0 ? '日均 ' + sym + (totalCNY / getDaysForAvg(currentMonth)).toFixed(2) : '还没有记录喵')}</span>
       </div>
       ${allData.monthlyBudget ? `
         <div class="budget-bar">

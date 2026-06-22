@@ -165,13 +165,25 @@
       "category": "food",
       "note": "\u706b\u817f\u6c99\u62c9+\u867e\u6247\u8d1d\u829d\u58eb\u7117\u9762+\u63d0\u62c9\u7c73\u82cf",
       "month": "2026-06"
+    },
+    {
+      "id": "txn_20260622_003",
+      "date": "2026-06-22",
+      "amount": 80.81,
+      "currency": "CNY",
+      "convertedAmount": 80.81,
+      "exchangeRate": 1,
+      "rateNote": "CNY base currency",
+      "category": "medical",
+      "note": "\u836f\u5986\u5e97\u76ae\u80a4\u836f (\u30ce\u30f3\u30b9\u30c6\u30ed\u30a4\u30c9)",
+      "month": "2026-06"
     }
   ],
   "monthlyBudget": null,
   "cachedRates": {},
   "stats": {
-    "totalEntries": 9,
-    "totalSpentCNY": 868.78,
+    "totalEntries": 10,
+    "totalSpentCNY": 949.59,
     "firstEntry": "2026-06-20",
     "lastEntry": "2026-06-22"
   }

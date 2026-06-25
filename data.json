@@ -225,13 +225,13 @@
       "category": "food",
       "note": "\u5916\u5356 (\u725b\u4e73+\u6709\u6a5f\u8c46\u4e73+\u6930\u5b50\u6c34+\u751f\u5976\u6cb9+\u30cf\u30e2\u30f3\u30bb\u30e9\u30fc\u30ce+\u914d\u9001\u8cbb)",
       "month": "2026-06"
-    },
+    }
   ],
   "monthlyBudget": null,
   "cachedRates": {},
   "stats": {
-    "totalEntries": 15,
-    "totalSpentCNY": 2338.26,
+    "totalEntries": 14,
+    "totalSpentCNY": 1338.26,
     "firstEntry": "2026-06-20",
     "lastEntry": "2026-06-24"
   }

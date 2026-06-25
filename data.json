@@ -261,13 +261,25 @@
       "category": "daily",
       "note": "\u7164\u6c14\u8d39",
       "month": "2026-06"
+    },
+    {
+      "id": "txn_20260625_004",
+      "date": "2026-06-25",
+      "amount": 898,
+      "currency": "CNY",
+      "convertedAmount": 898.0,
+      "exchangeRate": 1,
+      "rateNote": "CNY base currency",
+      "category": "daily",
+      "note": "Claude\u8ba2\u9605\u8d39 (\u5c0f\u82cf\u7684\u7ef4\u62a4\u8d39)",
+      "month": "2026-06"
     }
   ],
   "monthlyBudget": null,
   "cachedRates": {},
   "stats": {
-    "totalEntries": 17,
-    "totalSpentCNY": 1657.74,
+    "totalEntries": 18,
+    "totalSpentCNY": 2555.74,
     "firstEntry": "2026-06-20",
     "lastEntry": "2026-06-25"
   }

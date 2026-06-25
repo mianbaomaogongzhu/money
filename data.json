@@ -1,60 +1,60 @@
 {
   "meta": {
-    "owner": "星星",
+    "owner": "\u661f\u661f",
     "baseCurrency": "CNY",
-    "currencySymbol": "¥",
+    "currencySymbol": "\u00a5",
     "created": "2026-06-20",
     "lastUpdated": "2026-06-25",
-    "updatedBy": "小苏"
+    "updatedBy": "\u5c0f\u82cf"
   },
   "categories": {
     "food": {
-      "emoji": "🍱",
-      "name": "餐饮"
+      "emoji": "\ud83c\udf71",
+      "name": "\u9910\u996e"
     },
     "transport": {
-      "emoji": "🚃",
-      "name": "交通"
+      "emoji": "\ud83d\ude83",
+      "name": "\u4ea4\u901a"
     },
     "housing": {
-      "emoji": "🏠",
-      "name": "住房水电"
+      "emoji": "\ud83c\udfe0",
+      "name": "\u4f4f\u623f\u6c34\u7535"
     },
     "education": {
-      "emoji": "📚",
-      "name": "学习"
+      "emoji": "\ud83d\udcda",
+      "name": "\u5b66\u4e60"
     },
     "entertainment": {
-      "emoji": "🎮",
-      "name": "娱乐"
+      "emoji": "\ud83c\udfae",
+      "name": "\u5a31\u4e50"
     },
     "shopping": {
-      "emoji": "👗",
-      "name": "购物"
+      "emoji": "\ud83d\udc57",
+      "name": "\u8d2d\u7269"
     },
     "medical": {
-      "emoji": "💊",
-      "name": "医疗美容"
+      "emoji": "\ud83d\udc8a",
+      "name": "\u533b\u7597\u7f8e\u5bb9"
     },
     "travel": {
-      "emoji": "✈️",
-      "name": "旅行"
+      "emoji": "\u2708\ufe0f",
+      "name": "\u65c5\u884c"
     },
     "kpop": {
-      "emoji": "🎵",
-      "name": "追星"
+      "emoji": "\ud83c\udfb5",
+      "name": "\u8ffd\u661f"
     },
     "subscription": {
-      "emoji": "📱",
-      "name": "订阅通讯"
+      "emoji": "\ud83d\udcf1",
+      "name": "\u8ba2\u9605\u901a\u8baf"
     },
     "daily": {
-      "emoji": "🧴",
-      "name": "日用品"
+      "emoji": "\ud83e\uddf4",
+      "name": "\u65e5\u7528\u54c1"
     },
     "other": {
-      "emoji": "🐱",
-      "name": "其他"
+      "emoji": "\ud83d\udc31",
+      "name": "\u5176\u4ed6"
     }
   },
   "entries": [
@@ -67,7 +67,7 @@
       "exchangeRate": 23.81,
       "rateNote": "1 CNY = 23.81 JPY",
       "category": "food",
-      "note": "鸡汤拉面",
+      "note": "\u9e21\u6c64\u62c9\u9762",
       "month": "2026-06"
     },
     {
@@ -79,7 +79,7 @@
       "exchangeRate": 23.81,
       "rateNote": "1 CNY = 23.81 JPY",
       "category": "daily",
-      "note": "安睡裤3×8+可乐700ml (外卖)",
+      "note": "\u5b89\u7761\u88e43\u00d78+\u53ef\u4e50700ml (\u5916\u5356)",
       "month": "2026-06"
     },
     {
@@ -91,7 +91,7 @@
       "exchangeRate": 23.81,
       "rateNote": "1 CNY = 23.81 JPY",
       "category": "shopping",
-      "note": "Manic Panic染发膏x2 (紫色)",
+      "note": "Manic Panic\u67d3\u53d1\u818fx2 (\u7d2b\u8272)",
       "month": "2026-06"
     },
     {
@@ -103,7 +103,7 @@
       "exchangeRate": 23.81,
       "rateNote": "1 CNY = 23.81 JPY",
       "category": "food",
-      "note": "早上买饮料",
+      "note": "\u65e9\u4e0a\u4e70\u996e\u6599",
       "month": "2026-06"
     },
     {
@@ -115,7 +115,7 @@
       "exchangeRate": 1,
       "rateNote": "CNY base currency",
       "category": "daily",
-      "note": "被褥烘干机 Sintu (Amazon JP)",
+      "note": "\u88ab\u8925\u70d8\u5e72\u673a Sintu (Amazon JP)",
       "month": "2026-06"
     },
     {
@@ -127,7 +127,7 @@
       "exchangeRate": 1,
       "rateNote": "CNY base currency",
       "category": "food",
-      "note": "便利店早饭 (蛋白饮料+奶油大福+坚果酸奶)",
+      "note": "\u4fbf\u5229\u5e97\u65e9\u996d (\u86cb\u767d\u996e\u6599+\u5976\u6cb9\u5927\u798f+\u575a\u679c\u9178\u5976)",
       "month": "2026-06"
     },
     {
@@ -139,7 +139,7 @@
       "exchangeRate": 23.81,
       "rateNote": "1 CNY = 23.81 JPY",
       "category": "food",
-      "note": "牛肉汉堡套餐 (外卖)",
+      "note": "\u725b\u8089\u6c49\u5821\u5957\u9910 (\u5916\u5356)",
       "month": "2026-06"
     },
     {
@@ -151,7 +151,7 @@
       "exchangeRate": 1,
       "rateNote": "CNY base currency",
       "category": "food",
-      "note": "售货机饮料",
+      "note": "\u552e\u8d27\u673a\u996e\u6599",
       "month": "2026-06"
     },
     {
@@ -163,7 +163,7 @@
       "exchangeRate": 1,
       "rateNote": "CNY base currency",
       "category": "food",
-      "note": "火腿沙拉+虾扇贝芝士焗面+提拉米苏",
+      "note": "\u706b\u817f\u6c99\u62c9+\u867e\u6247\u8d1d\u829d\u58eb\u7117\u9762+\u63d0\u62c9\u7c73\u82cf",
       "month": "2026-06"
     },
     {
@@ -175,7 +175,7 @@
       "exchangeRate": 1,
       "rateNote": "CNY base currency",
       "category": "medical",
-      "note": "药妆店皮肤药 (ノンステロイド)",
+      "note": "\u836f\u5986\u5e97\u76ae\u80a4\u836f (\u30ce\u30f3\u30b9\u30c6\u30ed\u30a4\u30c9)",
       "month": "2026-06"
     },
     {
@@ -187,7 +187,7 @@
       "exchangeRate": 23.81,
       "rateNote": "1 CNY = 23.81 JPY",
       "category": "food",
-      "note": "甜点外卖",
+      "note": "\u751c\u70b9\u5916\u5356",
       "month": "2026-06"
     },
     {
@@ -199,7 +199,7 @@
       "exchangeRate": 23.81,
       "rateNote": "1 CNY = 23.81 JPY",
       "category": "food",
-      "note": "午饭外卖",
+      "note": "\u5348\u996d\u5916\u5356",
       "month": "2026-06"
     },
     {
@@ -211,7 +211,7 @@
       "exchangeRate": 23.81,
       "rateNote": "1 CNY = 23.81 JPY",
       "category": "food",
-      "note": "米5kg (令和7年産)",
+      "note": "\u7c735kg (\u4ee4\u548c7\u5e74\u7523)",
       "month": "2026-06"
     },
     {
@@ -223,16 +223,28 @@
       "exchangeRate": 23.81,
       "rateNote": "1 CNY = 23.81 JPY",
       "category": "food",
-      "note": "外卖 (牛乳+有機豆乳+椰子水+生奶油+ハモンセラーノ+配送費)",
+      "note": "\u5916\u5356 (\u725b\u4e73+\u6709\u6a5f\u8c46\u4e73+\u6930\u5b50\u6c34+\u751f\u5976\u6cb9+\u30cf\u30e2\u30f3\u30bb\u30e9\u30fc\u30ce+\u914d\u9001\u8cbb)",
+      "month": "2026-06"
+    },
+    {
+      "id": "txn_20260625_001",
+      "date": "2026-06-25",
+      "amount": 1723,
+      "currency": "JPY",
+      "convertedAmount": 72.36,
+      "exchangeRate": 23.81,
+      "rateNote": "1 CNY = 23.81 JPY",
+      "category": "food",
+      "note": "\u661f\u5df4\u514b\u6843\u5b50\u9650\u5b9ax2",
       "month": "2026-06"
     }
   ],
   "monthlyBudget": null,
   "cachedRates": {},
   "stats": {
-    "totalEntries": 14,
-    "totalSpentCNY": 1338.26,
+    "totalEntries": 15,
+    "totalSpentCNY": 1410.62,
     "firstEntry": "2026-06-20",
-    "lastEntry": "2026-06-24"
+    "lastEntry": "2026-06-25"
   }
 }

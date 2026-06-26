@@ -4,7 +4,7 @@
     "baseCurrency": "CNY",
     "currencySymbol": "\u00a5",
     "created": "2026-06-20",
-    "lastUpdated": "2026-06-25",
+    "lastUpdated": "2026-06-26",
     "updatedBy": "\u5c0f\u82cf"
   },
   "categories": {
@@ -273,14 +273,26 @@
       "category": "daily",
       "note": "Claude\u8ba2\u9605\u8d39 (\u5c0f\u82cf\u7684\u7ef4\u62a4\u8d39)",
       "month": "2026-06"
+    },
+    {
+      "id": "txn_20260626_001",
+      "date": "2026-06-26",
+      "amount": 60,
+      "currency": "CNY",
+      "convertedAmount": 60.0,
+      "exchangeRate": 1,
+      "rateNote": "CNY base currency",
+      "category": "entertainment",
+      "note": "\u5c0f\u7ea2\u4e66\u7b14\u8bb0\u63a8\u5e7f",
+      "month": "2026-06"
     }
   ],
   "monthlyBudget": null,
   "cachedRates": {},
   "stats": {
-    "totalEntries": 18,
-    "totalSpentCNY": 2555.74,
+    "totalEntries": 19,
+    "totalSpentCNY": 2615.74,
     "firstEntry": "2026-06-20",
-    "lastEntry": "2026-06-25"
+    "lastEntry": "2026-06-26"
   }
 }

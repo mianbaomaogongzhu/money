@@ -4,7 +4,7 @@
     "baseCurrency": "CNY",
     "currencySymbol": "\u00a5",
     "created": "2026-06-20",
-    "lastUpdated": "2026-06-30",
+    "lastUpdated": "2026-07-01",
     "updatedBy": "\u5c0f\u82cf"
   },
   "categories": {
@@ -357,14 +357,26 @@
       "category": "food",
       "note": "\u5916\u5356\u9762 (\u88ab\u9a97\u4e86)",
       "month": "2026-06"
+    },
+    {
+      "id": "txn_20260701_001",
+      "date": "2026-07-01",
+      "amount": 200,
+      "currency": "CNY",
+      "convertedAmount": 200.0,
+      "exchangeRate": 1,
+      "rateNote": "CNY base currency",
+      "category": "food",
+      "note": "Uber\u5916\u5356\u5361\u5145\u503c (5000\u65e5\u5143)",
+      "month": "2026-07"
     }
   ],
   "monthlyBudget": null,
   "cachedRates": {},
   "stats": {
-    "totalEntries": 25,
-    "totalSpentCNY": 2955.51,
+    "totalEntries": 26,
+    "totalSpentCNY": 3155.51,
     "firstEntry": "2026-06-20",
-    "lastEntry": "2026-06-30"
+    "lastEntry": "2026-07-01"
   }
 }

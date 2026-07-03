@@ -4,7 +4,7 @@
     "baseCurrency": "CNY",
     "currencySymbol": "\u00a5",
     "created": "2026-06-20",
-    "lastUpdated": "2026-07-01",
+    "lastUpdated": "2026-07-03",
     "updatedBy": "\u5c0f\u82cf"
   },
   "categories": {
@@ -369,14 +369,26 @@
       "category": "food",
       "note": "Uber\u5916\u5356\u5361\u5145\u503c (5000\u65e5\u5143)",
       "month": "2026-07"
+    },
+    {
+      "id": "txn_20260703_001",
+      "date": "2026-07-03",
+      "amount": 700,
+      "currency": "JPY",
+      "convertedAmount": 29.4,
+      "exchangeRate": 23.81,
+      "rateNote": "1 CNY = 23.81 JPY",
+      "category": "shopping",
+      "note": "\u526a\u5934\u53d1 (\u5218\u6d77+\u8138\u65c1\u8fb9)",
+      "month": "2026-07"
     }
   ],
   "monthlyBudget": null,
   "cachedRates": {},
   "stats": {
-    "totalEntries": 26,
-    "totalSpentCNY": 3155.51,
+    "totalEntries": 27,
+    "totalSpentCNY": 3184.91,
     "firstEntry": "2026-06-20",
-    "lastEntry": "2026-07-01"
+    "lastEntry": "2026-07-03"
   }
 }

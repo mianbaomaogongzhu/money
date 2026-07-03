@@ -381,13 +381,49 @@
       "category": "shopping",
       "note": "\u526a\u5934\u53d1 (\u5218\u6d77+\u8138\u65c1\u8fb9)",
       "month": "2026-07"
+    },
+    {
+      "id": "txn_20260703_002",
+      "date": "2026-07-03",
+      "amount": 190,
+      "currency": "CNY",
+      "convertedAmount": 190.0,
+      "exchangeRate": 1,
+      "rateNote": "CNY base currency",
+      "category": "shopping",
+      "note": "\u68b3\u5b50+\u62a4\u53d1\u6c34",
+      "month": "2026-07"
+    },
+    {
+      "id": "txn_20260703_003",
+      "date": "2026-07-03",
+      "amount": 1350,
+      "currency": "JPY",
+      "convertedAmount": 56.7,
+      "exchangeRate": 23.81,
+      "rateNote": "1 CNY = 23.81 JPY",
+      "category": "food",
+      "note": "\u62c9\u9762",
+      "month": "2026-07"
+    },
+    {
+      "id": "txn_20260703_004",
+      "date": "2026-07-03",
+      "amount": 170,
+      "currency": "JPY",
+      "convertedAmount": 7.14,
+      "exchangeRate": 23.81,
+      "rateNote": "1 CNY = 23.81 JPY",
+      "category": "food",
+      "note": "\u6c34",
+      "month": "2026-07"
     }
   ],
   "monthlyBudget": null,
   "cachedRates": {},
   "stats": {
-    "totalEntries": 27,
-    "totalSpentCNY": 3184.91,
+    "totalEntries": 30,
+    "totalSpentCNY": 3438.75,
     "firstEntry": "2026-06-20",
     "lastEntry": "2026-07-03"
   }

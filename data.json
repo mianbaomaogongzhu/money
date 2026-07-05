@@ -441,14 +441,26 @@
       "category": "medical",
       "note": "\u5fc3\u7406\u54a8\u8be2",
       "month": "2026-07"
+    },
+    {
+      "id": "txn_20260705_001",
+      "date": "2026-07-05",
+      "amount": 35.8,
+      "currency": "CNY",
+      "convertedAmount": 35.8,
+      "exchangeRate": 1,
+      "rateNote": "CNY base currency",
+      "category": "shopping",
+      "note": "\u65b0\u96e8\u4f1e\uff08\u65e7\u4f1e\u574f\u4e86\uff09",
+      "month": "2026-07"
     }
   ],
   "monthlyBudget": null,
   "cachedRates": {},
   "stats": {
-    "totalEntries": 32,
-    "totalSpentCNY": 4206.75,
+    "totalEntries": 33,
+    "totalSpentCNY": 4242.55,
     "firstEntry": "2026-06-20",
-    "lastEntry": "2026-07-03"
+    "lastEntry": "2026-07-05"
   }
 }

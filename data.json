@@ -4,7 +4,7 @@
     "baseCurrency": "CNY",
     "currencySymbol": "\u00a5",
     "created": "2026-06-20",
-    "lastUpdated": "2026-07-03",
+    "lastUpdated": "2026-07-05",
     "updatedBy": "\u5c0f\u82cf"
   },
   "categories": {
@@ -371,6 +371,18 @@
       "month": "2026-07"
     },
     {
+      "id": "txn_20260701_002",
+      "date": "2026-07-01",
+      "amount": 384.0,
+      "currency": "CNY",
+      "convertedAmount": 384.0,
+      "exchangeRate": 1,
+      "rateNote": "CNY base currency",
+      "category": "medical",
+      "note": "\u5fc3\u7406\u54a8\u8be2",
+      "month": "2026-07"
+    },
+    {
       "id": "txn_20260703_001",
       "date": "2026-07-03",
       "amount": 700,
@@ -417,13 +429,25 @@
       "category": "food",
       "note": "\u6c34",
       "month": "2026-07"
+    },
+    {
+      "id": "txn_20260703_005",
+      "date": "2026-07-03",
+      "amount": 384.0,
+      "currency": "CNY",
+      "convertedAmount": 384.0,
+      "exchangeRate": 1,
+      "rateNote": "CNY base currency",
+      "category": "medical",
+      "note": "\u5fc3\u7406\u54a8\u8be2",
+      "month": "2026-07"
     }
   ],
   "monthlyBudget": null,
   "cachedRates": {},
   "stats": {
-    "totalEntries": 30,
-    "totalSpentCNY": 3438.75,
+    "totalEntries": 32,
+    "totalSpentCNY": 4206.75,
     "firstEntry": "2026-06-20",
     "lastEntry": "2026-07-03"
   }

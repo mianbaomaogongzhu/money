@@ -549,13 +549,25 @@
       "category": "transport",
       "note": "\u6253\u8f66\u53bb\u677e\u5c3e\u5927\u793e\uff08\u4e03\u5915\u796d\uff09",
       "month": "2026-07"
+    },
+    {
+      "id": "txn_20260707_004",
+      "date": "2026-07-07",
+      "amount": 5687,
+      "currency": "JPY",
+      "convertedAmount": 238.85,
+      "exchangeRate": 23.81,
+      "rateNote": "1 CNY = 23.81 JPY",
+      "category": "food",
+      "note": "Royal Host \u5496\u55b1+\u6c99\u62c9\uff08\u4e03\u5915\u796d\u540e\uff09",
+      "month": "2026-07"
     }
   ],
   "monthlyBudget": null,
   "cachedRates": {},
   "stats": {
-    "totalEntries": 41,
-    "totalSpentCNY": 4999.7,
+    "totalEntries": 42,
+    "totalSpentCNY": 5238.55,
     "firstEntry": "2026-06-20",
     "lastEntry": "2026-07-07"
   }

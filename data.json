@@ -525,13 +525,25 @@
       "category": "food",
       "note": "\u9ea6\u5f53\u52b3\u5348\u996d",
       "month": "2026-07"
+    },
+    {
+      "id": "txn_20260707_002",
+      "date": "2026-07-07",
+      "amount": 9.9,
+      "currency": "CNY",
+      "convertedAmount": 9.9,
+      "exchangeRate": 1,
+      "rateNote": "CNY base currency",
+      "category": "shopping",
+      "note": "\u732b\u54aa\u5854\u7f57\u724c Paws Tarot",
+      "month": "2026-07"
     }
   ],
   "monthlyBudget": null,
   "cachedRates": {},
   "stats": {
-    "totalEntries": 39,
-    "totalSpentCNY": 4830.2,
+    "totalEntries": 40,
+    "totalSpentCNY": 4840.1,
     "firstEntry": "2026-06-20",
     "lastEntry": "2026-07-07"
   }

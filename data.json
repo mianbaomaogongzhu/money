@@ -4,7 +4,7 @@
     "baseCurrency": "CNY",
     "currencySymbol": "\u00a5",
     "created": "2026-06-20",
-    "lastUpdated": "2026-07-07",
+    "lastUpdated": "2026-07-08",
     "updatedBy": "\u5c0f\u82cf"
   },
   "categories": {
@@ -561,14 +561,26 @@
       "category": "food",
       "note": "Royal Host \u5496\u55b1+\u6c99\u62c9\uff08\u4e03\u5915\u796d\u540e\uff09",
       "month": "2026-07"
+    },
+    {
+      "id": "txn_20260708_001",
+      "date": "2026-07-08",
+      "amount": 1212,
+      "currency": "JPY",
+      "convertedAmount": 50.9,
+      "exchangeRate": 23.81,
+      "rateNote": "1 CNY = 23.81 JPY",
+      "category": "food",
+      "note": "\u5976\u8336",
+      "month": "2026-07"
     }
   ],
   "monthlyBudget": null,
   "cachedRates": {},
   "stats": {
-    "totalEntries": 42,
-    "totalSpentCNY": 5238.55,
+    "totalEntries": 43,
+    "totalSpentCNY": 5289.45,
     "firstEntry": "2026-06-20",
-    "lastEntry": "2026-07-07"
+    "lastEntry": "2026-07-08"
   }
 }

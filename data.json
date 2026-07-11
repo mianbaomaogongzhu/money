@@ -657,13 +657,25 @@
       "category": "food",
       "note": "\u6c34",
       "month": "2026-07"
+    },
+    {
+      "id": "txn_20260711_003",
+      "date": "2026-07-11",
+      "amount": 3430,
+      "currency": "JPY",
+      "convertedAmount": 144.06,
+      "exchangeRate": 23.81,
+      "rateNote": "1 CNY = 23.81 JPY",
+      "category": "shopping",
+      "note": "ZARA\u5927\u4fc3 \u85d5\u7c89\u8272bomber jacket",
+      "month": "2026-07"
     }
   ],
   "monthlyBudget": null,
   "cachedRates": {},
   "stats": {
-    "totalEntries": 50,
-    "totalSpentCNY": 5875.29,
+    "totalEntries": 51,
+    "totalSpentCNY": 6019.35,
     "firstEntry": "2026-06-20",
     "lastEntry": "2026-07-11"
   }

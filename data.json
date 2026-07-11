@@ -669,13 +669,25 @@
       "category": "shopping",
       "note": "ZARA\u5927\u4fc3 \u85d5\u7c89\u8272bomber jacket",
       "month": "2026-07"
+    },
+    {
+      "id": "txn_20260711_004",
+      "date": "2026-07-11",
+      "amount": 1640,
+      "currency": "JPY",
+      "convertedAmount": 68.88,
+      "exchangeRate": 23.81,
+      "rateNote": "1 CNY = 23.81 JPY",
+      "category": "food",
+      "note": "MUJI Caf\u00e9\u5348\u996d\uff08\u53ef\u4e50\u997c+\u9e21\u809d+\u7ae0\u9c7c\u6c99\u62c9+\u6742\u7cae\u996d+\u5473\u564c\u6c64+\u82f9\u679c\u6c41\uff09",
+      "month": "2026-07"
     }
   ],
   "monthlyBudget": null,
   "cachedRates": {},
   "stats": {
-    "totalEntries": 51,
-    "totalSpentCNY": 6019.35,
+    "totalEntries": 52,
+    "totalSpentCNY": 6088.23,
     "firstEntry": "2026-06-20",
     "lastEntry": "2026-07-11"
   }

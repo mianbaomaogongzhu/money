@@ -4,7 +4,7 @@
     "baseCurrency": "CNY",
     "currencySymbol": "\u00a5",
     "created": "2026-06-20",
-    "lastUpdated": "2026-07-11",
+    "lastUpdated": "2026-07-12",
     "updatedBy": "\u5c0f\u82cf"
   },
   "categories": {
@@ -681,14 +681,38 @@
       "category": "food",
       "note": "MUJI Caf\u00e9\u5348\u996d\uff08\u53ef\u4e50\u997c+\u9e21\u809d+\u7ae0\u9c7c\u6c99\u62c9+\u6742\u7cae\u996d+\u5473\u564c\u6c64+\u82f9\u679c\u6c41\uff09",
       "month": "2026-07"
+    },
+    {
+      "id": "txn_20260712_001",
+      "date": "2026-07-12",
+      "amount": 3048,
+      "currency": "JPY",
+      "convertedAmount": 128.01,
+      "exchangeRate": 23.81,
+      "rateNote": "1 CNY = 23.81 JPY",
+      "category": "food",
+      "note": "\u5976\u8336",
+      "month": "2026-07"
+    },
+    {
+      "id": "txn_20260712_002",
+      "date": "2026-07-12",
+      "amount": 2302,
+      "currency": "JPY",
+      "convertedAmount": 96.68,
+      "exchangeRate": 23.81,
+      "rateNote": "1 CNY = 23.81 JPY",
+      "category": "food",
+      "note": "\u996d",
+      "month": "2026-07"
     }
   ],
   "monthlyBudget": null,
   "cachedRates": {},
   "stats": {
-    "totalEntries": 52,
-    "totalSpentCNY": 6088.23,
+    "totalEntries": 54,
+    "totalSpentCNY": 6312.92,
     "firstEntry": "2026-06-20",
-    "lastEntry": "2026-07-11"
+    "lastEntry": "2026-07-12"
   }
 }

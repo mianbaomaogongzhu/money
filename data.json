@@ -4,7 +4,7 @@
     "baseCurrency": "CNY",
     "currencySymbol": "\u00a5",
     "created": "2026-06-20",
-    "lastUpdated": "2026-07-13",
+    "lastUpdated": "2026-07-14",
     "updatedBy": "\u5c0f\u82cf"
   },
   "categories": {
@@ -707,8 +707,8 @@
       "month": "2026-07"
     },
     {
-      "id": "txn_20260712_003",
-      "date": "2026-07-12",
+      "id": "txn_20260713_003",
+      "date": "2026-07-13",
       "amount": 743,
       "currency": "JPY",
       "convertedAmount": 31.21,
@@ -719,8 +719,8 @@
       "month": "2026-07"
     },
     {
-      "id": "txn_20260712_004",
-      "date": "2026-07-12",
+      "id": "txn_20260713_004",
+      "date": "2026-07-13",
       "amount": 1980,
       "currency": "JPY",
       "convertedAmount": 83.16,
@@ -731,8 +731,8 @@
       "month": "2026-07"
     },
     {
-      "id": "txn_20260712_005",
-      "date": "2026-07-12",
+      "id": "txn_20260713_005",
+      "date": "2026-07-13",
       "amount": 150,
       "currency": "JPY",
       "convertedAmount": 6.3,
@@ -749,6 +749,6 @@
     "totalEntries": 57,
     "totalSpentCNY": 6433.59,
     "firstEntry": "2026-06-20",
-    "lastEntry": "2026-07-12"
+    "lastEntry": "2026-07-13"
   }
 }

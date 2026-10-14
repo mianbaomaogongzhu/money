@@ -993,13 +993,37 @@
       "category": "shopping",
       "note": "Hands\uff1a\u6d17\u53d1\u6c34+\u62a4\u53d1\u7d20+\u84dd\u8272\u62a4\u53d1\u7d20+\u5934\u53d1\u9632\u6652\u55b7\u96fe+\u62a4\u624b\u971c",
       "month": "2026-10"
+    },
+    {
+      "id": "txn_20261014_002",
+      "date": "2026-10-14",
+      "amount": 114.47,
+      "currency": "CNY",
+      "convertedAmount": 114.47,
+      "exchangeRate": 1,
+      "rateNote": "CNY",
+      "category": "food",
+      "note": "\u86cb\u7cd5",
+      "month": "2026-10"
+    },
+    {
+      "id": "txn_20261014_003",
+      "date": "2026-10-14",
+      "amount": 100,
+      "currency": "CNY",
+      "convertedAmount": 100,
+      "exchangeRate": 1,
+      "rateNote": "CNY",
+      "category": "entertainment",
+      "note": "\u6e38\u620f\u5145\u503c",
+      "month": "2026-10"
     }
   ],
   "monthlyBudget": null,
   "cachedRates": {},
   "stats": {
-    "totalEntries": 78,
-    "totalSpentCNY": 10644.7,
+    "totalEntries": 80,
+    "totalSpentCNY": 10859.17,
     "firstEntry": "2026-06-20",
     "lastEntry": "2026-10-14"
   }

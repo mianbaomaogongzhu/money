@@ -985,9 +985,9 @@
     {
       "id": "txn_20261014_001",
       "date": "2026-10-14",
-      "amount": 9152,
+      "amount": 10532,
       "currency": "JPY",
-      "convertedAmount": 387.47,
+      "convertedAmount": 445.89,
       "exchangeRate": 23.62,
       "rateNote": "1 CNY = 23.62 JPY",
       "category": "shopping",
@@ -999,7 +999,7 @@
   "cachedRates": {},
   "stats": {
     "totalEntries": 78,
-    "totalSpentCNY": 10586.28,
+    "totalSpentCNY": 10644.7,
     "firstEntry": "2026-06-20",
     "lastEntry": "2026-10-14"
   }

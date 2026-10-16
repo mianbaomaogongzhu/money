@@ -1093,11 +1093,11 @@
     {
       "id": "txn_20261016_001",
       "date": "2026-10-16",
-      "amount": 14000,
+      "amount": 15400,
       "currency": "JPY",
-      "convertedAmount": 597.52,
-      "exchangeRate": 23.43,
-      "rateNote": "1 CNY = 23.43 JPY",
+      "convertedAmount": 654.52,
+      "exchangeRate": 23.53,
+      "rateNote": "1 CNY = 23.53 JPY\uff08\u5fae\u4fe1\u5b9e\u4ed8\u6c47\u7387 1 JPY = 0.042501 CNY\uff09",
       "category": "shopping",
       "note": "Ray BEAMS \u7070\u84dd\u788e\u82b1\u9488\u7ec7\u5f00\u886b",
       "month": "2026-10"
@@ -1106,13 +1106,13 @@
   "monthlyBudget": null,
   "cachedRates": {
     "JPY": {
-      "rate": 23.43,
+      "rate": 23.53,
       "date": "2026-10-16"
     }
   },
   "stats": {
     "totalEntries": 87,
-    "totalSpentCNY": 12149.38,
+    "totalSpentCNY": 12206.38,
     "firstEntry": "2026-06-20",
     "lastEntry": "2026-10-16"
   }

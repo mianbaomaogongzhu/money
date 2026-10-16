@@ -4,7 +4,7 @@
     "baseCurrency": "CNY",
     "currencySymbol": "\u00a5",
     "created": "2026-06-20",
-    "lastUpdated": "2026-10-15",
+    "lastUpdated": "2026-10-16",
     "updatedBy": "\u5c0f\u82cf"
   },
   "categories": {
@@ -1089,14 +1089,31 @@
       "category": "food",
       "note": "\u96f6\u98df",
       "month": "2026-10"
+    },
+    {
+      "id": "txn_20261016_001",
+      "date": "2026-10-16",
+      "amount": 14000,
+      "currency": "JPY",
+      "convertedAmount": 597.52,
+      "exchangeRate": 23.43,
+      "rateNote": "1 CNY = 23.43 JPY",
+      "category": "shopping",
+      "note": "Ray BEAMS \u7070\u84dd\u788e\u82b1\u9488\u7ec7\u5f00\u886b",
+      "month": "2026-10"
     }
   ],
   "monthlyBudget": null,
-  "cachedRates": {},
+  "cachedRates": {
+    "JPY": {
+      "rate": 23.43,
+      "date": "2026-10-16"
+    }
+  },
   "stats": {
-    "totalEntries": 86,
-    "totalSpentCNY": 11551.86,
+    "totalEntries": 87,
+    "totalSpentCNY": 12149.38,
     "firstEntry": "2026-06-20",
-    "lastEntry": "2026-10-15"
+    "lastEntry": "2026-10-16"
   }
 }

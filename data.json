@@ -1183,6 +1183,18 @@
       "category": "subscription",
       "note": "\u624b\u673a\u8d39",
       "month": "2026-10"
+    },
+    {
+      "id": "txn_20261017_004",
+      "date": "2026-10-17",
+      "amount": 3000,
+      "currency": "JPY",
+      "convertedAmount": 127.44,
+      "exchangeRate": 23.54,
+      "rateNote": "1 CNY = 23.54 JPY",
+      "category": "entertainment",
+      "note": "\u706b\u7130\u7eb9\u7ae0 Engage DLC",
+      "month": "2026-10"
     }
   ],
   "monthlyBudget": null,
@@ -1193,8 +1205,8 @@
     }
   },
   "stats": {
-    "totalEntries": 94,
-    "totalSpentCNY": 12952.53,
+    "totalEntries": 95,
+    "totalSpentCNY": 13079.97,
     "firstEntry": "2026-06-20",
     "lastEntry": "2026-10-17"
   }

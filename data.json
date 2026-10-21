@@ -4,7 +4,7 @@
     "baseCurrency": "CNY",
     "currencySymbol": "\u00a5",
     "created": "2026-06-20",
-    "lastUpdated": "2026-10-19",
+    "lastUpdated": "2026-10-21",
     "updatedBy": "\u5c0f\u82cf"
   },
   "categories": {
@@ -1219,6 +1219,53 @@
       "category": "education",
       "note": "\u5b66\u751f\u8bc1\u529e\u7406",
       "month": "2026-10"
+    },
+    {
+      "id": "txn_20261021_001",
+      "date": "2026-10-21",
+      "amount": 500,
+      "currency": "JPY",
+      "convertedAmount": 21.24,
+      "exchangeRate": 23.54,
+      "category": "food",
+      "note": "\u996e\u6599",
+      "month": "2026-10",
+      "rateNote": "1 CNY = 23.54 JPY"
+    },
+    {
+      "id": "txn_20261021_002",
+      "date": "2026-10-21",
+      "amount": 2640,
+      "currency": "JPY",
+      "convertedAmount": 112.15,
+      "exchangeRate": 23.54,
+      "category": "food",
+      "note": "\u86cb\u7cd5",
+      "month": "2026-10",
+      "rateNote": "1 CNY = 23.54 JPY"
+    },
+    {
+      "id": "txn_20261021_003",
+      "date": "2026-10-21",
+      "amount": 1600,
+      "currency": "JPY",
+      "convertedAmount": 67.97,
+      "exchangeRate": 23.54,
+      "category": "subscription",
+      "note": "Gemini API\u5145\u503c",
+      "month": "2026-10",
+      "rateNote": "1 CNY = 23.54 JPY"
+    },
+    {
+      "id": "txn_20261021_004",
+      "date": "2026-10-21",
+      "amount": 300,
+      "currency": "CNY",
+      "convertedAmount": 300,
+      "exchangeRate": 1,
+      "category": "entertainment",
+      "note": "\u6296\u97f3\u6253\u8d4f",
+      "month": "2026-10"
     }
   ],
   "monthlyBudget": null,
@@ -1229,9 +1276,9 @@
     }
   },
   "stats": {
-    "totalEntries": 97,
-    "totalSpentCNY": 13179.08,
+    "totalEntries": 101,
+    "totalSpentCNY": 13680.44,
     "firstEntry": "2026-06-20",
-    "lastEntry": "2026-10-19"
+    "lastEntry": "2026-10-21"
   }
 }

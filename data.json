@@ -4,7 +4,7 @@
     "baseCurrency": "CNY",
     "currencySymbol": "\u00a5",
     "created": "2026-06-20",
-    "lastUpdated": "2026-10-23",
+    "lastUpdated": "2026-10-24",
     "updatedBy": "\u5c0f\u82cf"
   },
   "categories": {
@@ -1395,6 +1395,66 @@
       "category": "food",
       "note": "\u5348\u996d",
       "month": "2026-10"
+    },
+    {
+      "id": "txn_20261024_001",
+      "date": "2026-10-24",
+      "amount": 13700,
+      "currency": "JPY",
+      "convertedAmount": 581.99,
+      "exchangeRate": 23.54,
+      "rateNote": "1 CNY = 23.54 JPY",
+      "category": "transport",
+      "note": "\u65b0\u5e72\u7ebf",
+      "month": "2026-10"
+    },
+    {
+      "id": "txn_20261024_002",
+      "date": "2026-10-24",
+      "amount": 13700,
+      "currency": "JPY",
+      "convertedAmount": 581.99,
+      "exchangeRate": 23.54,
+      "rateNote": "1 CNY = 23.54 JPY",
+      "category": "transport",
+      "note": "\u65b0\u5e72\u7ebf",
+      "month": "2026-10"
+    },
+    {
+      "id": "txn_20261024_003",
+      "date": "2026-10-24",
+      "amount": 1000,
+      "currency": "JPY",
+      "convertedAmount": 42.48,
+      "exchangeRate": 23.54,
+      "rateNote": "1 CNY = 23.54 JPY",
+      "category": "transport",
+      "note": "\u8f66\u8d39",
+      "month": "2026-10"
+    },
+    {
+      "id": "txn_20261024_004",
+      "date": "2026-10-24",
+      "amount": 8063,
+      "currency": "JPY",
+      "convertedAmount": 342.52,
+      "exchangeRate": 23.54,
+      "rateNote": "1 CNY = 23.54 JPY",
+      "category": "food",
+      "note": "\u5403\u996d",
+      "month": "2026-10"
+    },
+    {
+      "id": "txn_20261024_005",
+      "date": "2026-10-24",
+      "amount": 180,
+      "currency": "JPY",
+      "convertedAmount": 7.65,
+      "exchangeRate": 23.54,
+      "rateNote": "1 CNY = 23.54 JPY",
+      "category": "food",
+      "note": "\u996e\u6599",
+      "month": "2026-10"
     }
   ],
   "monthlyBudget": null,
@@ -1405,9 +1465,9 @@
     }
   },
   "stats": {
-    "totalEntries": 112,
-    "totalSpentCNY": 15757.36,
+    "totalEntries": 117,
+    "totalSpentCNY": 17313.99,
     "firstEntry": "2026-06-20",
-    "lastEntry": "2026-10-23"
+    "lastEntry": "2026-10-24"
   }
 }

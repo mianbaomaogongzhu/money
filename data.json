@@ -1567,6 +1567,118 @@
       "category": "subscription",
       "note": "\u8bdd\u8d39\u5145\u503c",
       "month": "2026-10"
+    },
+    {
+      "id": "txn_20261026_010",
+      "date": "2026-10-26",
+      "amount": 17871,
+      "currency": "JPY",
+      "convertedAmount": 759.18,
+      "exchangeRate": 23.54,
+      "rateNote": "1 CNY = 23.54 JPY",
+      "category": "subscription",
+      "note": "Claude\u8ba2\u9605\u8d39",
+      "month": "2026-10"
+    },
+    {
+      "id": "txn_20261026_011",
+      "date": "2026-10-26",
+      "amount": 115,
+      "currency": "CNY",
+      "convertedAmount": 115,
+      "exchangeRate": 1,
+      "category": "transport",
+      "note": "\u6253\u8f66\uff08\u66b4\u96e8\uff09",
+      "month": "2026-10"
+    },
+    {
+      "id": "txn_20261026_012",
+      "date": "2026-10-26",
+      "amount": 1900,
+      "currency": "JPY",
+      "convertedAmount": 80.71,
+      "exchangeRate": 23.54,
+      "rateNote": "1 CNY = 23.54 JPY",
+      "category": "transport",
+      "note": "\u6253\u8f66\uff08\u66b4\u96e8\uff09",
+      "month": "2026-10"
+    },
+    {
+      "id": "txn_20261026_013",
+      "date": "2026-10-26",
+      "amount": 460,
+      "currency": "CNY",
+      "convertedAmount": 460,
+      "exchangeRate": 1,
+      "category": "entertainment",
+      "note": "\u6253\u8d4f\u5145\u503c",
+      "month": "2026-10"
+    },
+    {
+      "id": "txn_20261026_014",
+      "date": "2026-10-26",
+      "amount": 30.82,
+      "currency": "CNY",
+      "convertedAmount": 30.82,
+      "exchangeRate": 1,
+      "category": "food",
+      "note": "\u5168\u5bb6\u96f6\u98df",
+      "month": "2026-10"
+    },
+    {
+      "id": "txn_20261026_015",
+      "date": "2026-10-26",
+      "amount": 281.78,
+      "currency": "CNY",
+      "convertedAmount": 281.78,
+      "exchangeRate": 1,
+      "category": "food",
+      "note": "\u665a\u996d",
+      "month": "2026-10"
+    },
+    {
+      "id": "txn_20261026_016",
+      "date": "2026-10-26",
+      "amount": 50,
+      "currency": "CNY",
+      "convertedAmount": 50,
+      "exchangeRate": 1,
+      "category": "subscription",
+      "note": "API\u5145\u503c",
+      "month": "2026-10"
+    },
+    {
+      "id": "txn_20261026_017",
+      "date": "2026-10-26",
+      "amount": 18.3,
+      "currency": "CNY",
+      "convertedAmount": 18.3,
+      "exchangeRate": 1,
+      "category": "daily",
+      "note": "\u5145\u7535\u5b9d\u79df\u501f",
+      "month": "2026-10"
+    },
+    {
+      "id": "txn_20261026_018",
+      "date": "2026-10-26",
+      "amount": 18.3,
+      "currency": "CNY",
+      "convertedAmount": 18.3,
+      "exchangeRate": 1,
+      "category": "daily",
+      "note": "\u5145\u7535\u5b9d\u79df\u501f",
+      "month": "2026-10"
+    },
+    {
+      "id": "txn_20261026_019",
+      "date": "2026-10-26",
+      "amount": 100,
+      "currency": "CNY",
+      "convertedAmount": 100,
+      "exchangeRate": 1,
+      "category": "subscription",
+      "note": "\u8bdd\u8d39\u5145\u503c",
+      "month": "2026-10"
     }
   ],
   "monthlyBudget": null,
@@ -1577,9 +1689,9 @@
     }
   },
   "stats": {
-    "totalEntries": 127,
-    "totalSpentCNY": 19100.08,
+    "totalEntries": 137,
+    "totalSpentCNY": 21014.17,
     "firstEntry": "2026-06-20",
-    "lastEntry": "2026-10-27"
+    "lastEntry": "2026-10-26"
   }
 }

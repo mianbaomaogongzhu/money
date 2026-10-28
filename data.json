@@ -4,7 +4,7 @@
     "baseCurrency": "CNY",
     "currencySymbol": "\u00a5",
     "created": "2026-06-20",
-    "lastUpdated": "2026-10-27",
+    "lastUpdated": "2026-10-28",
     "updatedBy": "\u5c0f\u82cf"
   },
   "categories": {
@@ -1614,6 +1614,18 @@
       "category": "medical",
       "note": "\u7f8e\u7532",
       "month": "2026-10"
+    },
+    {
+      "id": "txn_20261028_001",
+      "date": "2026-10-28",
+      "amount": 1871,
+      "currency": "JPY",
+      "convertedAmount": 79.48,
+      "exchangeRate": 23.54,
+      "rateNote": "1 CNY = 23.54 JPY",
+      "category": "food",
+      "note": "\u661f\u5df4\u514b",
+      "month": "2026-10"
     }
   ],
   "monthlyBudget": null,
@@ -1624,9 +1636,9 @@
     }
   },
   "stats": {
-    "totalEntries": 131,
-    "totalSpentCNY": 19713.35,
+    "totalEntries": 132,
+    "totalSpentCNY": 19792.83,
     "firstEntry": "2026-06-20",
-    "lastEntry": "2026-10-27"
+    "lastEntry": "2026-10-28"
   }
 }

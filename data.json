@@ -4,7 +4,7 @@
     "baseCurrency": "CNY",
     "currencySymbol": "\u00a5",
     "created": "2026-06-20",
-    "lastUpdated": "2026-10-30",
+    "lastUpdated": "2026-11-02",
     "updatedBy": "\u5c0f\u82cf"
   },
   "categories": {
@@ -1697,6 +1697,42 @@
       "category": "food",
       "note": "\u996e\u6599",
       "month": "2026-10"
+    },
+    {
+      "id": "txn_20261101_001",
+      "date": "2026-11-01",
+      "amount": 150,
+      "currency": "CNY",
+      "convertedAmount": 150,
+      "exchangeRate": 1,
+      "rateNote": "CNY",
+      "category": "subscription",
+      "note": "API\u5145\u503c",
+      "month": "2026-11"
+    },
+    {
+      "id": "txn_20261101_002",
+      "date": "2026-11-01",
+      "amount": 2236,
+      "currency": "CNY",
+      "convertedAmount": 2236,
+      "exchangeRate": 1,
+      "rateNote": "CNY",
+      "category": "travel",
+      "note": "\u673a\u7968",
+      "month": "2026-11"
+    },
+    {
+      "id": "txn_20261102_001",
+      "date": "2026-11-02",
+      "amount": 58.68,
+      "currency": "CNY",
+      "convertedAmount": 58.68,
+      "exchangeRate": 1,
+      "rateNote": "CNY",
+      "category": "food",
+      "note": "\u5348\u996d",
+      "month": "2026-11"
     }
   ],
   "monthlyBudget": null,
@@ -1707,9 +1743,9 @@
     }
   },
   "stats": {
-    "totalEntries": 138,
-    "totalSpentCNY": 20472.9,
+    "totalEntries": 141,
+    "totalSpentCNY": 22917.58,
     "firstEntry": "2026-06-20",
-    "lastEntry": "2026-10-30"
+    "lastEntry": "2026-11-02"
   }
 }

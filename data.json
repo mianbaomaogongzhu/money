@@ -1841,6 +1841,18 @@
       "category": "medical",
       "note": "\u76ae\u80a4\u79d1",
       "month": "2026-11"
+    },
+    {
+      "id": "txn_20261104_003",
+      "date": "2026-11-04",
+      "amount": 1200,
+      "currency": "JPY",
+      "convertedAmount": 50.72,
+      "exchangeRate": 23.66,
+      "rateNote": "1 CNY = 23.66 JPY",
+      "category": "medical",
+      "note": "\u76ae\u80a4\u79d1",
+      "month": "2026-11"
     }
   ],
   "monthlyBudget": null,
@@ -1851,8 +1863,8 @@
     }
   },
   "stats": {
-    "totalEntries": 150,
-    "totalSpentCNY": 23698.78,
+    "totalEntries": 151,
+    "totalSpentCNY": 23749.5,
     "firstEntry": "2026-06-20",
     "lastEntry": "2026-11-04"
   }

@@ -1853,6 +1853,18 @@
       "category": "medical",
       "note": "\u76ae\u80a4\u79d1",
       "month": "2026-11"
+    },
+    {
+      "id": "txn_20261104_004",
+      "date": "2026-11-04",
+      "amount": 49.3,
+      "currency": "CNY",
+      "convertedAmount": 49.3,
+      "exchangeRate": 1,
+      "rateNote": "CNY",
+      "category": "food",
+      "note": "\u665a\u996d",
+      "month": "2026-11"
     }
   ],
   "monthlyBudget": null,
@@ -1863,8 +1875,8 @@
     }
   },
   "stats": {
-    "totalEntries": 151,
-    "totalSpentCNY": 23749.5,
+    "totalEntries": 152,
+    "totalSpentCNY": 23798.8,
     "firstEntry": "2026-06-20",
     "lastEntry": "2026-11-04"
   }

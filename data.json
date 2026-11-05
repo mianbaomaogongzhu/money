@@ -1913,6 +1913,18 @@
       "category": "entertainment",
       "note": "\u5360\u535c\uff08\u7b2c\u4e8c\u6b21\uff09",
       "month": "2026-11"
+    },
+    {
+      "id": "txn_20261105_001",
+      "date": "2026-11-05",
+      "amount": 53.48,
+      "currency": "CNY",
+      "convertedAmount": 53.48,
+      "exchangeRate": 1,
+      "rateNote": "CNY",
+      "category": "education",
+      "note": "\u7b14\u8bb0\u672c\uff08+\u996e\u6599\uff09",
+      "month": "2026-11"
     }
   ],
   "monthlyBudget": null,
@@ -1923,9 +1935,9 @@
     }
   },
   "stats": {
-    "totalEntries": 156,
-    "totalSpentCNY": 24274.69,
+    "totalEntries": 157,
+    "totalSpentCNY": 24328.17,
     "firstEntry": "2026-06-20",
-    "lastEntry": "2026-11-04"
+    "lastEntry": "2026-11-05"
   }
 }

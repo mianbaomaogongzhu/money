@@ -1925,6 +1925,18 @@
       "category": "education",
       "note": "\u7b14\u8bb0\u672c\uff08+\u996e\u6599\uff09",
       "month": "2026-11"
+    },
+    {
+      "id": "txn_20261105_002",
+      "date": "2026-11-05",
+      "amount": 132,
+      "currency": "JPY",
+      "convertedAmount": 5.58,
+      "exchangeRate": 23.66,
+      "rateNote": "1 CNY = 23.66 JPY",
+      "category": "education",
+      "note": "\u7b14",
+      "month": "2026-11"
     }
   ],
   "monthlyBudget": null,
@@ -1935,8 +1947,8 @@
     }
   },
   "stats": {
-    "totalEntries": 157,
-    "totalSpentCNY": 24328.17,
+    "totalEntries": 158,
+    "totalSpentCNY": 24333.75,
     "firstEntry": "2026-06-20",
     "lastEntry": "2026-11-05"
   }

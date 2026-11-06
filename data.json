@@ -1961,6 +1961,18 @@
       "category": "food",
       "note": "\u5c0f\u83dc",
       "month": "2026-11"
+    },
+    {
+      "id": "txn_20261106_003",
+      "date": "2026-11-06",
+      "amount": 50,
+      "currency": "CNY",
+      "convertedAmount": 50,
+      "exchangeRate": 1,
+      "rateNote": "CNY",
+      "category": "subscription",
+      "note": "API\u5145\u503c",
+      "month": "2026-11"
     }
   ],
   "monthlyBudget": null,
@@ -1971,8 +1983,8 @@
     }
   },
   "stats": {
-    "totalEntries": 160,
-    "totalSpentCNY": 24357.75,
+    "totalEntries": 161,
+    "totalSpentCNY": 24407.75,
     "firstEntry": "2026-06-20",
     "lastEntry": "2026-11-06"
   }

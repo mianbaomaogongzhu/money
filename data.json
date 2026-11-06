@@ -4,7 +4,7 @@
     "baseCurrency": "CNY",
     "currencySymbol": "\u00a5",
     "created": "2026-06-20",
-    "lastUpdated": "2026-11-05",
+    "lastUpdated": "2026-11-06",
     "updatedBy": "\u5c0f\u82cf"
   },
   "categories": {
@@ -1937,6 +1937,18 @@
       "category": "education",
       "note": "\u7b14",
       "month": "2026-11"
+    },
+    {
+      "id": "txn_20261106_001",
+      "date": "2026-11-06",
+      "amount": 8,
+      "currency": "CNY",
+      "convertedAmount": 8,
+      "exchangeRate": 1,
+      "rateNote": "CNY",
+      "category": "food",
+      "note": "\u8461\u8404\u6c41",
+      "month": "2026-11"
     }
   ],
   "monthlyBudget": null,
@@ -1947,9 +1959,9 @@
     }
   },
   "stats": {
-    "totalEntries": 158,
-    "totalSpentCNY": 24333.75,
+    "totalEntries": 159,
+    "totalSpentCNY": 24341.75,
     "firstEntry": "2026-06-20",
-    "lastEntry": "2026-11-05"
+    "lastEntry": "2026-11-06"
   }
 }

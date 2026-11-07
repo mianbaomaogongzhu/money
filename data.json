@@ -2013,13 +2013,25 @@
     {
       "id": "txn_20261107_002",
       "date": "2026-11-07",
-      "amount": 2613,
+      "amount": 2316,
       "currency": "JPY",
-      "convertedAmount": 110.44,
+      "convertedAmount": 97.89,
       "exchangeRate": 23.66,
       "rateNote": "1 CNY = 23.66 JPY",
       "category": "housing",
-      "note": "\u7164\u6c14\u8d39+\u829d\u58eb\u5854",
+      "note": "\u7164\u6c14\u8d39",
+      "month": "2026-11"
+    },
+    {
+      "id": "txn_20261107_003",
+      "date": "2026-11-07",
+      "amount": 297,
+      "currency": "JPY",
+      "convertedAmount": 12.55,
+      "exchangeRate": 23.66,
+      "rateNote": "1 CNY = 23.66 JPY",
+      "category": "food",
+      "note": "\u829d\u58eb\u86cb\u7b52",
       "month": "2026-11"
     }
   ],
@@ -2031,7 +2043,7 @@
     }
   },
   "stats": {
-    "totalEntries": 165,
+    "totalEntries": 166,
     "totalSpentCNY": 24611.43,
     "firstEntry": "2026-06-20",
     "lastEntry": "2026-11-07"

@@ -2009,6 +2009,18 @@
       "category": "food",
       "note": "\u661f\u5df4\u514b \u30b8\u30e7\u30a4\u30d5\u30eb\u30e1\u30c9\u30ec\u30fc\u30c6\u30a3\u30fc\u30e9\u30c6\uff08\u30c1\u30e3\u30a4+\u52a0\u6d53\u7f29\uff09",
       "month": "2026-11"
+    },
+    {
+      "id": "txn_20261107_002",
+      "date": "2026-11-07",
+      "amount": 2613,
+      "currency": "JPY",
+      "convertedAmount": 110.44,
+      "exchangeRate": 23.66,
+      "rateNote": "1 CNY = 23.66 JPY",
+      "category": "housing",
+      "note": "\u7164\u6c14\u8d39+\u829d\u58eb\u5854",
+      "month": "2026-11"
     }
   ],
   "monthlyBudget": null,
@@ -2019,8 +2031,8 @@
     }
   },
   "stats": {
-    "totalEntries": 164,
-    "totalSpentCNY": 24500.99,
+    "totalEntries": 165,
+    "totalSpentCNY": 24611.43,
     "firstEntry": "2026-06-20",
     "lastEntry": "2026-11-07"
   }

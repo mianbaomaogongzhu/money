@@ -2069,6 +2069,18 @@
       "category": "kpop",
       "note": "\u6f14\u5531\u4f1a\u95e8\u7968",
       "month": "2026-11"
+    },
+    {
+      "id": "txn_20261108_003",
+      "date": "2026-11-08",
+      "amount": 254,
+      "currency": "CNY",
+      "convertedAmount": 254,
+      "exchangeRate": 1,
+      "rateNote": "CNY",
+      "category": "shopping",
+      "note": "\u4e8c\u624b\u767d\u8272\u6d74\u888d\u5927\u8863\uff0890\u7f8a\u6bdb10\u5c3c\u9f99\uff09",
+      "month": "2026-11"
     }
   ],
   "monthlyBudget": null,
@@ -2079,8 +2091,8 @@
     }
   },
   "stats": {
-    "totalEntries": 169,
-    "totalSpentCNY": 27569.63,
+    "totalEntries": 170,
+    "totalSpentCNY": 27823.63,
     "firstEntry": "2026-06-20",
     "lastEntry": "2026-11-08"
   }

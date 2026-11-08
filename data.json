@@ -2093,6 +2093,18 @@
       "category": "food",
       "note": "\u661f\u5df4\u514b",
       "month": "2026-11"
+    },
+    {
+      "id": "txn_20261107_005",
+      "date": "2026-11-07",
+      "amount": 955,
+      "currency": "JPY",
+      "convertedAmount": 40.36,
+      "exchangeRate": 23.66,
+      "rateNote": "1 CNY = 23.66 JPY",
+      "category": "education",
+      "note": "\u5e73\u66ff\u89e6\u63a7\u7b14\uff08iPad\u7528\uff09",
+      "month": "2026-11"
     }
   ],
   "monthlyBudget": null,
@@ -2103,8 +2115,8 @@
     }
   },
   "stats": {
-    "totalEntries": 171,
-    "totalSpentCNY": 27835.35,
+    "totalEntries": 172,
+    "totalSpentCNY": 27875.71,
     "firstEntry": "2026-06-20",
     "lastEntry": "2026-11-08"
   }

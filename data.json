@@ -4,7 +4,7 @@
     "baseCurrency": "CNY",
     "currencySymbol": "\u00a5",
     "created": "2026-06-20",
-    "lastUpdated": "2026-11-09",
+    "lastUpdated": "2026-11-10",
     "updatedBy": "\u5c0f\u82cf"
   },
   "categories": {
@@ -2141,6 +2141,18 @@
       "category": "daily",
       "note": "\u68b3\u5b50+\u62a4\u53d1\u7d20",
       "month": "2026-11"
+    },
+    {
+      "id": "txn_20261110_001",
+      "date": "2026-11-10",
+      "amount": 250,
+      "currency": "CNY",
+      "convertedAmount": 250,
+      "exchangeRate": 1,
+      "rateNote": "CNY",
+      "category": "entertainment",
+      "note": "\u6296\u97f3\u5145\u503c\uff08\u672c\u60f3\u5145100\uff09",
+      "month": "2026-11"
     }
   ],
   "monthlyBudget": null,
@@ -2151,9 +2163,9 @@
     }
   },
   "stats": {
-    "totalEntries": 175,
-    "totalSpentCNY": 28173.29,
+    "totalEntries": 176,
+    "totalSpentCNY": 28423.29,
     "firstEntry": "2026-06-20",
-    "lastEntry": "2026-11-09"
+    "lastEntry": "2026-11-10"
   }
 }

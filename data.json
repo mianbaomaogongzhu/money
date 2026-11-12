@@ -2225,18 +2225,6 @@
       "category": "daily",
       "note": "\u526a\u5218\u6d77",
       "month": "2026-11"
-    },
-    {
-      "id": "txn_20261112_003",
-      "date": "2026-11-12",
-      "amount": 1100,
-      "currency": "JPY",
-      "convertedAmount": 46.49,
-      "exchangeRate": 23.66,
-      "rateNote": "1 CNY = 23.66 JPY",
-      "category": "daily",
-      "note": "\u526a\u5218\u6d77",
-      "month": "2026-11"
     }
   ],
   "monthlyBudget": null,
@@ -2247,8 +2235,8 @@
     }
   },
   "stats": {
-    "totalEntries": 183,
-    "totalSpentCNY": 35685.46,
+    "totalEntries": 182,
+    "totalSpentCNY": 35638.97,
     "firstEntry": "2026-06-20",
     "lastEntry": "2026-11-12"
   }

@@ -4,7 +4,7 @@
     "baseCurrency": "CNY",
     "currencySymbol": "\u00a5",
     "created": "2026-06-20",
-    "lastUpdated": "2026-11-11",
+    "lastUpdated": "2026-11-12",
     "updatedBy": "\u5c0f\u82cf"
   },
   "categories": {
@@ -2201,6 +2201,18 @@
       "category": "housing",
       "note": "\u623f\u79df",
       "month": "2026-11"
+    },
+    {
+      "id": "txn_20261112_001",
+      "date": "2026-11-12",
+      "amount": 35.8,
+      "currency": "CNY",
+      "convertedAmount": 35.8,
+      "exchangeRate": 1,
+      "rateNote": "CNY",
+      "category": "food",
+      "note": "\u661f\u5df4\u514b",
+      "month": "2026-11"
     }
   ],
   "monthlyBudget": null,
@@ -2211,9 +2223,9 @@
     }
   },
   "stats": {
-    "totalEntries": 180,
-    "totalSpentCNY": 35556.68,
+    "totalEntries": 181,
+    "totalSpentCNY": 35592.48,
     "firstEntry": "2026-06-20",
-    "lastEntry": "2026-11-11"
+    "lastEntry": "2026-11-12"
   }
 }

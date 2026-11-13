@@ -1457,18 +1457,6 @@
       "month": "2026-10"
     },
     {
-      "id": "txn_20261027_001",
-      "date": "2026-10-27",
-      "amount": 17871,
-      "currency": "JPY",
-      "convertedAmount": 759.18,
-      "exchangeRate": 23.54,
-      "category": "subscription",
-      "note": "Claude\u8ba2\u9605\u8d39",
-      "month": "2026-10",
-      "rateNote": "1 CNY = 23.54 JPY"
-    },
-    {
       "id": "txn_20261026_001",
       "date": "2026-10-26",
       "amount": 115,
@@ -1591,6 +1579,18 @@
       "category": "food",
       "note": "\u4e70\u6c34",
       "month": "2026-10"
+    },
+    {
+      "id": "txn_20261027_001",
+      "date": "2026-10-27",
+      "amount": 17871,
+      "currency": "JPY",
+      "convertedAmount": 759.18,
+      "exchangeRate": 23.54,
+      "category": "subscription",
+      "note": "Claude\u8ba2\u9605\u8d39",
+      "month": "2026-10",
+      "rateNote": "1 CNY = 23.54 JPY"
     },
     {
       "id": "txn_20261027_002",
@@ -1723,6 +1723,18 @@
       "month": "2026-11"
     },
     {
+      "id": "txn_20261101_003",
+      "date": "2026-11-01",
+      "amount": 300,
+      "currency": "CNY",
+      "convertedAmount": 300,
+      "exchangeRate": 1,
+      "rateNote": "CNY",
+      "category": "entertainment",
+      "note": "\u7b97\u547d",
+      "month": "2026-11"
+    },
+    {
       "id": "txn_20261102_001",
       "date": "2026-11-02",
       "amount": 58.68,
@@ -1747,18 +1759,6 @@
       "month": "2026-11"
     },
     {
-      "id": "txn_20261103_001",
-      "date": "2026-11-03",
-      "amount": 1211,
-      "currency": "JPY",
-      "convertedAmount": 51.18,
-      "exchangeRate": 23.66,
-      "rateNote": "1 CNY = 23.66 JPY",
-      "category": "food",
-      "note": "\u86cb\u7cd5\u5496\u5561",
-      "month": "2026-11"
-    },
-    {
       "id": "txn_20261102_003",
       "date": "2026-11-02",
       "amount": 17.34,
@@ -1771,15 +1771,15 @@
       "month": "2026-11"
     },
     {
-      "id": "txn_20261101_003",
-      "date": "2026-11-01",
-      "amount": 300,
-      "currency": "CNY",
-      "convertedAmount": 300,
-      "exchangeRate": 1,
-      "rateNote": "CNY",
-      "category": "entertainment",
-      "note": "\u7b97\u547d",
+      "id": "txn_20261103_001",
+      "date": "2026-11-03",
+      "amount": 1211,
+      "currency": "JPY",
+      "convertedAmount": 51.18,
+      "exchangeRate": 23.66,
+      "rateNote": "1 CNY = 23.66 JPY",
+      "category": "food",
+      "note": "\u86cb\u7cd5\u5496\u5561",
       "month": "2026-11"
     },
     {
@@ -2047,6 +2047,18 @@
       "month": "2026-11"
     },
     {
+      "id": "txn_20261107_005",
+      "date": "2026-11-07",
+      "amount": 955,
+      "currency": "JPY",
+      "convertedAmount": 40.36,
+      "exchangeRate": 23.66,
+      "rateNote": "1 CNY = 23.66 JPY",
+      "category": "education",
+      "note": "\u5e73\u66ff\u89e6\u63a7\u7b14\uff08iPad\u7528\uff09",
+      "month": "2026-11"
+    },
+    {
       "id": "txn_20261108_001",
       "date": "2026-11-08",
       "amount": 50,
@@ -2092,18 +2104,6 @@
       "rateNote": "1 CNY = 23.66 JPY",
       "category": "food",
       "note": "\u661f\u5df4\u514b",
-      "month": "2026-11"
-    },
-    {
-      "id": "txn_20261107_005",
-      "date": "2026-11-07",
-      "amount": 955,
-      "currency": "JPY",
-      "convertedAmount": 40.36,
-      "exchangeRate": 23.66,
-      "rateNote": "1 CNY = 23.66 JPY",
-      "category": "education",
-      "note": "\u5e73\u66ff\u89e6\u63a7\u7b14\uff08iPad\u7528\uff09",
       "month": "2026-11"
     },
     {
@@ -2251,6 +2251,18 @@
       "month": "2026-11"
     },
     {
+      "id": "txn_20261113_001",
+      "date": "2026-11-13",
+      "amount": 6.13,
+      "currency": "CNY",
+      "convertedAmount": 6.13,
+      "exchangeRate": 1,
+      "rateNote": "CNY",
+      "category": "food",
+      "note": "\u9178\u5976\uff08\u4e0a\u5348\uff09",
+      "month": "2026-11"
+    },
+    {
       "id": "txn_20261114_001",
       "date": "2026-11-14",
       "amount": 2800,
@@ -2271,8 +2283,8 @@
     }
   },
   "stats": {
-    "totalEntries": 185,
-    "totalSpentCNY": 35842.11,
+    "totalEntries": 186,
+    "totalSpentCNY": 35848.24,
     "firstEntry": "2026-06-20",
     "lastEntry": "2026-11-14"
   }

@@ -2297,6 +2297,18 @@
       "category": "transport",
       "note": "\u56de\u5bb6\u62ff\u5728\u7559\u5361\u7684\u6765\u56de\u51fa\u79df\u8f66",
       "month": "2026-11"
+    },
+    {
+      "id": "txn_20261114_004",
+      "date": "2026-11-14",
+      "amount": 10,
+      "currency": "CNY",
+      "convertedAmount": 10,
+      "exchangeRate": 1,
+      "rateNote": "CNY",
+      "category": "food",
+      "note": "\u673a\u573a\u4e70\u6c34",
+      "month": "2026-11"
     }
   ],
   "monthlyBudget": null,
@@ -2307,8 +2319,8 @@
     }
   },
   "stats": {
-    "totalEntries": 188,
-    "totalSpentCNY": 36129.96,
+    "totalEntries": 189,
+    "totalSpentCNY": 36139.96,
     "firstEntry": "2026-06-20",
     "lastEntry": "2026-11-14"
   }

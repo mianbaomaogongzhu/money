@@ -2273,6 +2273,30 @@
       "category": "transport",
       "note": "\u8f66\u7968\uff08\u53bb\u673a\u573a\uff09",
       "month": "2026-11"
+    },
+    {
+      "id": "txn_20261114_002",
+      "date": "2026-11-14",
+      "amount": 2800,
+      "currency": "JPY",
+      "convertedAmount": 118.34,
+      "exchangeRate": 23.66,
+      "rateNote": "1 CNY = 23.66 JPY",
+      "category": "transport",
+      "note": "\u91cd\u65b0\u4e70\u7684\u53bb\u673a\u573a\u5df4\u58eb",
+      "month": "2026-11"
+    },
+    {
+      "id": "txn_20261114_003",
+      "date": "2026-11-14",
+      "amount": 163.38,
+      "currency": "CNY",
+      "convertedAmount": 163.38,
+      "exchangeRate": 1,
+      "rateNote": "CNY",
+      "category": "transport",
+      "note": "\u56de\u5bb6\u62ff\u5728\u7559\u5361\u7684\u6765\u56de\u51fa\u79df\u8f66",
+      "month": "2026-11"
     }
   ],
   "monthlyBudget": null,
@@ -2283,8 +2307,8 @@
     }
   },
   "stats": {
-    "totalEntries": 186,
-    "totalSpentCNY": 35848.24,
+    "totalEntries": 188,
+    "totalSpentCNY": 36129.96,
     "firstEntry": "2026-06-20",
     "lastEntry": "2026-11-14"
   }

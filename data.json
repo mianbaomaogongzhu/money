@@ -4,7 +4,7 @@
     "baseCurrency": "CNY",
     "currencySymbol": "\u00a5",
     "created": "2026-06-20",
-    "lastUpdated": "2026-11-14",
+    "lastUpdated": "2026-11-16",
     "updatedBy": "\u5c0f\u82cf"
   },
   "categories": {
@@ -2309,6 +2309,18 @@
       "category": "food",
       "note": "\u673a\u573a\u4e70\u6c34",
       "month": "2026-11"
+    },
+    {
+      "id": "txn_20261116_001",
+      "date": "2026-11-16",
+      "amount": 978,
+      "currency": "CNY",
+      "convertedAmount": 978,
+      "exchangeRate": 1,
+      "rateNote": "CNY",
+      "category": "kpop",
+      "note": "\u97e9\u56fd \u81ea\u5df1\u548c\u670b\u53cb\u4e70\u8303\u89c4\u540c\u6b3e\u8863\u670d",
+      "month": "2026-11"
     }
   ],
   "monthlyBudget": null,
@@ -2319,9 +2331,9 @@
     }
   },
   "stats": {
-    "totalEntries": 189,
-    "totalSpentCNY": 36139.96,
+    "totalEntries": 190,
+    "totalSpentCNY": 37117.96,
     "firstEntry": "2026-06-20",
-    "lastEntry": "2026-11-14"
+    "lastEntry": "2026-11-16"
   }
 }

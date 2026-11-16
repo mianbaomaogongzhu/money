@@ -2489,6 +2489,30 @@
       "category": "food",
       "note": "\u97e9\u56fd \u4fbf\u5229\u5e97\u996e\u6599x2",
       "month": "2026-11"
+    },
+    {
+      "id": "txn_20261116_009",
+      "date": "2026-11-16",
+      "amount": 292,
+      "currency": "CNY",
+      "convertedAmount": 292,
+      "exchangeRate": 1,
+      "rateNote": "CNY",
+      "category": "food",
+      "note": "\u97e9\u56fd \u665a\u996d",
+      "month": "2026-11"
+    },
+    {
+      "id": "txn_20261116_010",
+      "date": "2026-11-16",
+      "amount": 52,
+      "currency": "CNY",
+      "convertedAmount": 52,
+      "exchangeRate": 1,
+      "rateNote": "CNY",
+      "category": "transport",
+      "note": "\u97e9\u56fd \u516c\u4ea4\u5361\u5145\u503c",
+      "month": "2026-11"
     }
   ],
   "monthlyBudget": null,
@@ -2499,8 +2523,8 @@
     }
   },
   "stats": {
-    "totalEntries": 204,
-    "totalSpentCNY": 39225.67,
+    "totalEntries": 206,
+    "totalSpentCNY": 39569.67,
     "firstEntry": "2026-06-20",
     "lastEntry": "2026-11-16"
   }

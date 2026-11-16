@@ -2347,6 +2347,18 @@
       "month": "2026-11"
     },
     {
+      "id": "txn_20261114_008",
+      "date": "2026-11-14",
+      "amount": 4120,
+      "currency": "JPY",
+      "convertedAmount": 174.13,
+      "exchangeRate": 23.66,
+      "rateNote": "1 CNY = 23.66 JPY",
+      "category": "food",
+      "note": "\u97e9\u56fd \u4fbf\u5229\u5e97",
+      "month": "2026-11"
+    },
+    {
       "id": "txn_20261115_001",
       "date": "2026-11-15",
       "amount": 52.87,
@@ -2392,6 +2404,18 @@
       "rateNote": "CNY",
       "category": "shopping",
       "note": "\u97e9\u56fd Olive Young \u6c14\u57ab+\u816e\u7ea2+\u5b9a\u5986\u55b7\u96fe",
+      "month": "2026-11"
+    },
+    {
+      "id": "txn_20261115_005",
+      "date": "2026-11-15",
+      "amount": 6538,
+      "currency": "JPY",
+      "convertedAmount": 276.33,
+      "exchangeRate": 23.66,
+      "rateNote": "1 CNY = 23.66 JPY",
+      "category": "food",
+      "note": "\u97e9\u56fd \u665a\u996d",
       "month": "2026-11"
     },
     {
@@ -2513,6 +2537,30 @@
       "category": "transport",
       "note": "\u97e9\u56fd \u516c\u4ea4\u5361\u5145\u503c",
       "month": "2026-11"
+    },
+    {
+      "id": "txn_20261116_011",
+      "date": "2026-11-16",
+      "amount": 630,
+      "currency": "JPY",
+      "convertedAmount": 26.63,
+      "exchangeRate": 23.66,
+      "rateNote": "1 CNY = 23.66 JPY",
+      "category": "kpop",
+      "note": "\u5d14\u674b\u572d DM\u8ba2\u9605",
+      "month": "2026-11"
+    },
+    {
+      "id": "txn_20261116_012",
+      "date": "2026-11-16",
+      "amount": 6300,
+      "currency": "JPY",
+      "convertedAmount": 266.27,
+      "exchangeRate": 23.66,
+      "rateNote": "1 CNY = 23.66 JPY",
+      "category": "kpop",
+      "note": "TXT\u4f1a\u5458\u7eed\u8d39",
+      "month": "2026-11"
     }
   ],
   "monthlyBudget": null,
@@ -2523,8 +2571,8 @@
     }
   },
   "stats": {
-    "totalEntries": 206,
-    "totalSpentCNY": 39569.67,
+    "totalEntries": 210,
+    "totalSpentCNY": 40313.03,
     "firstEntry": "2026-06-20",
     "lastEntry": "2026-11-16"
   }

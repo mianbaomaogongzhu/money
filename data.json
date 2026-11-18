@@ -4,7 +4,7 @@
     "baseCurrency": "CNY",
     "currencySymbol": "\u00a5",
     "created": "2026-06-20",
-    "lastUpdated": "2026-11-17",
+    "lastUpdated": "2026-11-18",
     "updatedBy": "\u5c0f\u82cf"
   },
   "categories": {
@@ -2597,6 +2597,30 @@
       "category": "food",
       "note": "\u97e9\u56fd \u996e\u6599",
       "month": "2026-11"
+    },
+    {
+      "id": "txn_20261117_004",
+      "date": "2026-11-17",
+      "amount": 1300,
+      "currency": "JPY",
+      "convertedAmount": 54.95,
+      "exchangeRate": 23.66,
+      "rateNote": "1 CNY = 23.66 JPY",
+      "category": "transport",
+      "note": "\u56de\u5bb6\u6253\u8f66",
+      "month": "2026-11"
+    },
+    {
+      "id": "txn_20261117_005",
+      "date": "2026-11-17",
+      "amount": 117.41,
+      "currency": "CNY",
+      "convertedAmount": 117.41,
+      "exchangeRate": 1,
+      "rateNote": "CNY",
+      "category": "transport",
+      "note": "\u673a\u573a\u5df4\u58eb\uff08\u56de\u7a0b\uff09",
+      "month": "2026-11"
     }
   ],
   "monthlyBudget": null,
@@ -2607,8 +2631,8 @@
     }
   },
   "stats": {
-    "totalEntries": 213,
-    "totalSpentCNY": 40954.23,
+    "totalEntries": 215,
+    "totalSpentCNY": 41126.59,
     "firstEntry": "2026-06-20",
     "lastEntry": "2026-11-17"
   }

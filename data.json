@@ -2667,6 +2667,16 @@
       "category": "shopping",
       "note": "\u91d1\u661f\u62a4\u7b26\u6750\u6599\uff08\u8d1d\u6bcd/\u9752\u91d1\u77f3/\u6708\u5149\u77f3/\u7ea2\u8272\u5f39\u529b\u7ef3\uff09",
       "month": "2026-11"
+    },
+    {
+      "id": "txn_20261119_005",
+      "date": "2026-11-19",
+      "amount": 387,
+      "currency": "CNY",
+      "convertedAmount": 387,
+      "category": "shopping",
+      "note": "\u91d1\u661f\u62a4\u7b26\u6750\u6599\uff1a\u8d1d\u6bcd+\u9752\u91d1\u77f3+\u6708\u5149\u77f3+\u7ea2\u8272\u5f39\u529b\u7ef3",
+      "month": "2026-11"
     }
   ],
   "monthlyBudget": null,
@@ -2677,8 +2687,8 @@
     }
   },
   "stats": {
-    "totalEntries": 219,
-    "totalSpentCNY": 41203.81,
+    "totalEntries": 220,
+    "totalSpentCNY": 41590.81,
     "firstEntry": "2026-06-20",
     "lastEntry": "2026-11-19"
   }

@@ -2636,11 +2636,13 @@
       "id": "txn_20261119_002",
       "date": "2026-11-19",
       "amount": 159,
-      "currency": "CNY",
+      "currency": "JPY",
       "category": "food",
       "note": "\u4e70\u996e\u6599",
       "month": "2026-11",
-      "convertedAmount": 159
+      "convertedAmount": 6.72,
+      "exchangeRate": 23.66,
+      "rateNote": "1 CNY = 23.66 JPY"
     },
     {
       "id": "txn_20261119_003",
@@ -2664,7 +2666,7 @@
   },
   "stats": {
     "totalEntries": 218,
-    "totalSpentCNY": 41339.73,
+    "totalSpentCNY": 41187.45,
     "firstEntry": "2026-06-20",
     "lastEntry": "2026-11-19"
   }

@@ -4,7 +4,7 @@
     "baseCurrency": "CNY",
     "currencySymbol": "\u00a5",
     "created": "2026-06-20",
-    "lastUpdated": "2026-11-18",
+    "lastUpdated": "2026-11-19",
     "updatedBy": "\u5c0f\u82cf"
   },
   "categories": {
@@ -2621,6 +2621,38 @@
       "category": "transport",
       "note": "\u673a\u573a\u5df4\u58eb\uff08\u56de\u7a0b\uff09",
       "month": "2026-11"
+    },
+    {
+      "id": "txn_20261119_001",
+      "date": "2026-11-19",
+      "amount": 18,
+      "currency": "CNY",
+      "category": "daily",
+      "note": "\u501f\u5145\u7535\u5b9d",
+      "month": "2026-11",
+      "convertedAmount": 18
+    },
+    {
+      "id": "txn_20261119_002",
+      "date": "2026-11-19",
+      "amount": 159,
+      "currency": "CNY",
+      "category": "food",
+      "note": "\u4e70\u996e\u6599",
+      "month": "2026-11",
+      "convertedAmount": 159
+    },
+    {
+      "id": "txn_20261119_003",
+      "date": "2026-11-19",
+      "amount": 855,
+      "currency": "JPY",
+      "category": "food",
+      "note": "\u661f\u5df4\u514b Venti\u6b22\u4e50\u8336\u62ff\u94c1",
+      "month": "2026-11",
+      "convertedAmount": 36.14,
+      "exchangeRate": 23.66,
+      "rateNote": "1 CNY = 23.66 JPY"
     }
   ],
   "monthlyBudget": null,
@@ -2631,9 +2663,9 @@
     }
   },
   "stats": {
-    "totalEntries": 215,
-    "totalSpentCNY": 41126.59,
+    "totalEntries": 218,
+    "totalSpentCNY": 41339.73,
     "firstEntry": "2026-06-20",
-    "lastEntry": "2026-11-17"
+    "lastEntry": "2026-11-19"
   }
 }

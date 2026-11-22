@@ -2687,6 +2687,16 @@
       "note": "\u7ed9\u670b\u53cb\u4e70\u811a\u8d34",
       "month": "2026-11",
       "convertedAmount": 90
+    },
+    {
+      "id": "txn_20261122_001",
+      "date": "2026-11-22",
+      "amount": 100,
+      "currency": "CNY",
+      "convertedAmount": 100,
+      "category": "subscription",
+      "note": "\u4e70API\u989d\u5ea6",
+      "month": "2026-11"
     }
   ],
   "monthlyBudget": null,
@@ -2697,9 +2707,9 @@
     }
   },
   "stats": {
-    "totalEntries": 221,
-    "totalSpentCNY": 41670.79,
+    "totalEntries": 222,
+    "totalSpentCNY": 41770.79,
     "firstEntry": "2026-06-20",
-    "lastEntry": "2026-11-20"
+    "lastEntry": "2026-11-22"
   }
 }

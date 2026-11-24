@@ -2721,6 +2721,16 @@
       "category": "other",
       "note": "\u4fee\u624b\u673a",
       "month": "2026-11"
+    },
+    {
+      "id": "txn_20261124_002",
+      "date": "2026-11-24",
+      "amount": 3,
+      "currency": "CNY",
+      "convertedAmount": 3,
+      "category": "kpop",
+      "note": "\u4e70\u8001\u516c\u7684\u6b4c",
+      "month": "2026-11"
     }
   ],
   "monthlyBudget": null,
@@ -2731,8 +2741,8 @@
     }
   },
   "stats": {
-    "totalEntries": 224,
-    "totalSpentCNY": 43630.47,
+    "totalEntries": 225,
+    "totalSpentCNY": 43633.47,
     "firstEntry": "2026-06-20",
     "lastEntry": "2026-11-24"
   }

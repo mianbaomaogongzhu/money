@@ -4,7 +4,7 @@
     "baseCurrency": "CNY",
     "currencySymbol": "\u00a5",
     "created": "2026-06-20",
-    "lastUpdated": "2026-11-24",
+    "lastUpdated": "2026-11-25",
     "updatedBy": "\u5c0f\u82cf"
   },
   "categories": {
@@ -2731,6 +2731,18 @@
       "category": "kpop",
       "note": "\u4e70\u8001\u516c\u7684\u6b4c",
       "month": "2026-11"
+    },
+    {
+      "id": "txn_20261125_001",
+      "date": "2026-11-25",
+      "amount": 3000,
+      "currency": "JPY",
+      "convertedAmount": 126.8,
+      "exchangeRate": 23.66,
+      "rateNote": "1 CNY = 23.66 JPY",
+      "category": "food",
+      "note": "\u5bff\u53f816\u8d2f",
+      "month": "2026-11"
     }
   ],
   "monthlyBudget": null,
@@ -2741,9 +2753,9 @@
     }
   },
   "stats": {
-    "totalEntries": 225,
-    "totalSpentCNY": 43633.47,
+    "totalEntries": 226,
+    "totalSpentCNY": 43760.27,
     "firstEntry": "2026-06-20",
-    "lastEntry": "2026-11-24"
+    "lastEntry": "2026-11-25"
   }
 }

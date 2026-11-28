@@ -2803,6 +2803,30 @@
       "category": "entertainment",
       "note": "\u6253\u8d4f\u5145\u503c\uff08\u5fae\u91ba\u8ffd\u52a0\uff09",
       "month": "2026-11"
+    },
+    {
+      "id": "txn_20261128_003",
+      "date": "2026-11-28",
+      "amount": 2979,
+      "currency": "JPY",
+      "convertedAmount": 125.91,
+      "exchangeRate": 23.66,
+      "rateNote": "1 CNY = 23.66 JPY",
+      "category": "housing",
+      "note": "\u7535\u8d39",
+      "month": "2026-11"
+    },
+    {
+      "id": "txn_20261128_004",
+      "date": "2026-11-28",
+      "amount": 18091,
+      "currency": "JPY",
+      "convertedAmount": 764.62,
+      "exchangeRate": 23.66,
+      "rateNote": "1 CNY = 23.66 JPY",
+      "category": "subscription",
+      "note": "Claude\u8ba2\u9605\u8d39",
+      "month": "2026-11"
     }
   ],
   "monthlyBudget": null,
@@ -2813,8 +2837,8 @@
     }
   },
   "stats": {
-    "totalEntries": 232,
-    "totalSpentCNY": 45576.27,
+    "totalEntries": 234,
+    "totalSpentCNY": 46466.8,
     "firstEntry": "2026-06-20",
     "lastEntry": "2026-11-28"
   }
